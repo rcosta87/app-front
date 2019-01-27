@@ -7,7 +7,7 @@ Integrante: Rhadá Costa Ferreira
 ### Clonar Repositório
 ```sh
 $ git clone git@github.com:rcosta87/app-front.git
-$ cd book-app
+$ cd app-front
 ```
 # 1.Para começar
 
