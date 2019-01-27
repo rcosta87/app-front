@@ -2,7 +2,7 @@
 
 Integrante: Rhadá Costa Ferreira
 
-# Instruções para inicializar a aplicação!
+# Instruções para inicializar a aplicação
 
 ### Clonar Repositório
 ```sh
@@ -22,7 +22,7 @@ $ npm install
 ```sh
 $ ng serve
 ```
-# 1.Iniciando o Backend
+# 2.Iniciando o Backend
 
 ### Instalando o json-server
 ```sh
