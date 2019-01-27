@@ -1,0 +1,110 @@
+    .card-books-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "detail shop" "about about" "reviews reviews";
+        grid-column-gap: 20px;
+        grid-row-gap: 35px;
+    }
+    
+    .item-detail {
+        grid-area: detail
+    }
+    
+    .shoppin-cart-wrap {
+        grid-area: shop;
+    }
+    
+    .livro-about {
+        grid-area: about;
+    }
+    
+    .reviews-card {
+        grid-area: reviews;
+    }
+    
+    .item-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    
+    .card-book-info-img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .item-detail,
+    .shoppin-cart-wrap,
+    .livro-about,
+    .reviews-card {
+        padding: 35px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 8px 10px 12px 0px rgba(46, 61, 73, 0.2);
+    }
+    
+    .item-detail .book-info-details {
+        padding: 15px;
+    }
+    
+    .book-info-title-book {
+        font-family: 'Playfair Display', serif;
+        color: #F07C29;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 0 0 20px;
+    }
+    
+    .book-info-details .title {
+        font-family: 'Caudex', serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .book-info-details .content-card-book-detail {
+        font-family: 'Lato', serif;
+        padding: 0 0 12px;
+    }
+    
+    .book-info-details .content-price {
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: bold;
+        color: #F07C29;
+    }
+    
+    .add-to-card {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #f07c29;
+        margin: 25px 0 15px;
+        padding: 11px 25px;
+        display: inline-block;
+        transition: background-color .4s ease-in;
+        cursor: pointer;
+    }
+    
+    .add-to-card:hover {
+        border: 2px solid #f07c29;
+        background-color: transparent;
+        color: #f07c29;
+        text-decoration: none;
+    }
+    
+    .livro-about h1,
+    .reviews-card h1 {
+        font-family: 'Caudex', serif;
+        color: #555;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 0 0 20px;
+        display: inline-block;
+    }
+    
+    .livro-about p {
+        font-family: 'Lato', serif;
+    }

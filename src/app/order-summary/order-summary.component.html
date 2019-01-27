@@ -1,0 +1,52 @@
+<mt-page-intro [title]="'Obrigada!'">
+</mt-page-intro>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+
+
+            <section class="content">
+                <div class="jumbotron">
+                    <h2>Pedido Conluído</h2>
+                    <p>Seu pedido foi recebido com sucesso:</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">Valor</th>
+                                <th scope="col">Valor Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of orderItens">
+                                <td>{{item?.name}}</td>
+                                <td>{{item?.quantity}}</td>
+                                <td>{{item?.price | currency: 'BRL': true}}</td>
+                                <td>{{item?.total | currency: 'BRL': true}}</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Frete : {{order.frete | currency: 'BRL': true}}</td>
+                                <td>Valor Total : {{valueTotalCart | currency: 'BRL': true}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><b>Avalie</b> sua experiência:</p>
+                    <p>
+                        <mt-rating (rated)="rate()"></mt-rating>
+                    </p>
+                    <p *ngIf="rated">
+                        Obrigado pela sua avaliação!
+                    </p>
+                </div>
+
+
+
+            </section>
+            <!-- FIM DO CONTEUDO -->
+        </div>
+    </div>
+</div>

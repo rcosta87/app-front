@@ -1,0 +1,563 @@
+{
+  "livros": [
+    {
+      "id": "javascript-guia-definitivo",
+      "name": "JavaScript: O Guia Definitivo",
+      "rating": 4.9,
+      "imagePath": "assets/img/javascript-guia.jpg",
+      "about": "JavaScript é a linguagem de programação da Web. A maioria dos sites modernos usa JavaScript, e todos os navegadores – em computadores de mesa, consoles de jogos, tablets e smartphones – incluem interpretadores JavaScript. Isso a torna uma das linguagens de programação mais importantes atualmente e uma das tecnologias que todo desenvolvedor Web deve conhecer. Referência completa para programadores, JavaScript: O guia de?nitivo fornece uma ampla descrição da linguagem JavaScript básica e das APIs JavaScript do lado do cliente de?nidas pelos navegadores Web. Em sua 6ª edição, cuidadosamente reescrita para estar de acordo com as melhores práticas de desenvolvimento Web atuais, abrange ECMAScript 5 e HTML5 e traz novos capítulos que documentam jQuery e JavaScript do lado do servidor.Recomendado para programadores experientes que desejam aprender a linguagem de programação da Web e para programadores JavaScript que desejam ampliar seus conhecimentos e dominar a linguagem, este é o guia do programador e manual de referência de JavaScript completo e de?nitivo.",
+      "price": 158.34,
+      "categoriaId": "programacao",
+      "autorId": "flanagan-david",
+      "autorName": "Flanagan David",
+      "numeroPaginas": 1080,
+      "editora": "O'reilly",
+      "anoEdicao": "2012"
+    },
+    {
+      "id": "marketing-comunicacao-na-era-digital",
+      "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
+      "rating": 4.9,
+      "imagePath": "assets/img/livro-marketing.jpg",
+      "about": "Este é o livro que todo profissional de marketing ou publicitário ambicioso, progressista e com uma percepção afinada do mercado deve ter em sua estante. A visão sobre comunicação empresarial mudou ao longo dos últimos anos e copiar a última ideia criativa do concorrente não é mais suficiente. Marketing e comunicação na era digital traz as novas regras de promoção de produtos e serviços na era digital. Este é um guia único, pioneiro, que oferece um plano de ação descrito passo-a-passo para aproveitar o poder da Internet para se comunicar diretamente com os compradores, aumentar a visibilidade online e expandir as vendas. Aprenda a enviar a mensagem certa para as pessoas certas no momento certo - e de uma forma muito barata.",
+      "price": 71.9,
+      "categoriaId": "marketing",
+      "autorId": "david-meerman-scott",
+      "autorName": "David Meerman Scott",
+      "numeroPaginas": 372,
+      "editora": "Editora Évora",
+      "anoEdicao": "2015"
+    },
+    {
+      "id": "introducao-ao-json",
+      "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
+      "rating": 4.2,
+      "imagePath": "assets/img/introducao-json.png",
+      "about": "Com uma linguagem simples e didática, o livro procura tornar a lógica de programação prática, além de mostrar aos estudantes um caminho mais adequado na construção dos algoritmos. A abstração de procedimentos e dados é um dos maiores problemas para os estudantes nos cursos introdutórios, e, para tentar escapar das dificuldades, os autores utilizam uma arquitetura de computador simples. Um dos principais objetivos do livro é fazer com que o estudante consiga no futuro relacionar os aspectos abstratos da computação com sua implementação, e ainda incentivar a necessidade de escrever os algoritmos antes de sua implementação propriamente dita.",
+      "price": 78.9,
+      "categoriaId": "programacao",
+      "autorId": "lindsay-bassett",
+      "autorName": "Lindsay Bassett",
+      "numeroPaginas": 262,
+      "editora": "O'reilly",
+      "anoEdicao": "2015"
+    },
+    {
+      "id": "a-sutil-arte-de-ligar-o-foda-se",
+      "name": "A Sutil Arte De Ligar O Foda-Se",
+      "rating": 4.5,
+      "imagePath": "assets/img/a-sutil-arte-de-ligar-o-foda-se.jpg",
+      "about": "Chega de tentar buscar um sucesso que só existe na sua cabeça. Chega de se torturar para pensar positivo enquanto sua vida vai ladeira abaixo. Chega de se sentir inferior por não ver o lado bom de estar no fundo do poço. Coaching, autoajuda, desenvolvimento pessoal, mentalização positiva — sem querer desprezar o valor de nada disso, a grande verdade é que às vezes nos sentimos quase sufocados diante da pressão infinita por parecermos otimistas o tempo todo. É um pecado social se deixar abater quando as coisas não vão bem. Ninguém pode fracassar simplesmente, sem aprender nada com isso. Não dá mais. É insuportável. E é aí que entra a revolucionária e sutil arte de ligar o foda-se. Mark Manson usa toda a sua sagacidade de escritor e seu olhar crítico para propor um novo caminho rumo a uma vida melhor, mais coerente com a realidade e consciente dos nossos limites. E ele faz isso da melhor maneira. Como um verdadeiro amigo, Mark se senta ao seu lado e diz, olhando nos seus olhos: você não é tão especial. Ele conta umas piadas aqui, dá uns exemplos inusitados ali, joga umas verdades na sua cara e pronto, você já se sente muito mais alerta e capaz de enfrentar esse mundo cão. Para os céticos e os descrentes, mas também para os amantes do gênero, enfim uma abordagem franca e inteligente que vai ajudar você a descobrir o que é realmente importante na sua vida, e f*da-se o resto. Livre-se agora da felicidade maquiada e superficial e abrace esta arte verdadeiramente transformadora.",
+      "price": 23.9,
+      "categoriaId": "auto-ajuda",
+      "autorId": "marky-manson",
+      "autorName": "Marky Manson",
+      "numeroPaginas": 224,
+      "editora": "Intrinseca",
+      "anoEdicao": "2017"
+    },
+    {
+      "id": "a-magia-do-silencio",
+      "name": "A Magia do Silêncio",
+      "rating": 4.1,
+      "imagePath": "assets/img/a-magia-do-silencio.jpg",
+      "about": "Comida saudável é no Green Food. Compramos barato, vendemos caro. ;)",
+      "price": 34.7,
+      "categoriaId": "auto-ajuda",
+      "autorId": "kankyo-tannier",
+      "autorName": "Kankyo Tannier",
+      "numeroPaginas": 160,
+      "editora": "Sextante",
+      "anoEdicao": "2018"
+    },
+    {
+      "id": "historia-riqueza",
+      "name": "História Da Riqueza No Brasil",
+      "rating": 4.5,
+      "imagePath": "assets/img/historia-da-riqueza.jpg",
+      "about": "História da riqueza no Brasil é ao mesmo tempo tão monumental quanto síntese. Há algumas definitivas, como as do trio Gilberto Freyre- Sérgio Buarque de Holanda-Caio Prado. A diferença? São mais de quinhentos anos relidos e explicados em nova chave. Pois para realizar a sua, Caldeira serviu-se de disciplinas vizinhas, a antropologia e a econometria, enriquecendo interpretações que já vinha consolidando em obras anteriores. A antropologia lhe permitiu se aproximar do passado, iluminando objetos como a família, a mestiçagem, atitudes econômicas, as alianças de poder, revelando sua surpreendente permanência ao longo de cinco séculos. Quanto a econometria, essa forneceu medidas e estatísticas mal e pouco conhecidas de grande parte dos historiadores, para apreender fatos que só mediante esta abordagem são capturáveis.” – Mary del Priore “(Caldeira) ressalta, o que para poucos era claro, que o mercado interno sempre teve importância maior do que lhe foi atribuída por muitos autores, mesmo de livros clássicos. Não que se deixe de reconhecer o papel importantíssimo do mercado externo para a inserção mundial da economia, mas desaparece o retrato simplificador da sociedade brasileira do passado como se ela fosse formada apenas pela grande lavoura de exportação. Em segundo lugar, trata-se de obra que traz uma abordagem metodológica rara: Caldeira introduz a referência a números, aos grandes números, na narrativa histórica e os usa para a comprovação de suas teses. Como se isso não bastasse para dar singularidade e notoriedade ao livro, acrescente-se que suas páginas mostram o fracasso das tentativas de acelerar o crescimento econômico pela vontade política do Estado.” – Fernando Henrique Cardoso",
+      "price": 55.9,
+      "categoriaId": "economia",
+      "autorId": "jorge-caldeira",
+      "autorName": "Jorge Caldeira",
+      "numeroPaginas": 624,
+      "editora": "Estação Brasil",
+      "anoEdicao": "2017"
+    },
+    {
+      "id": "caixa-passaros",
+      "name": "Caixa De Pássaros",
+      "rating": 3.4,
+      "imagePath": "assets/img/caixa-passaros.jpg",
+      "about": "Romance de estreia de Josh Malerman, “Caixa de Pássaros” é um thriller psicológico tenso e aterrorizante, que explora a essência do medo. Uma história que vai deixar o leitor completamente sem fôlego mesmo depois de terminar de ler. Basta uma olhadela para desencadear um impulso violento e incontrolável que acabará em suicídio. Ninguém é imune e ninguém sabe o que provoca essa reação nas pessoas. Cinco anos depois do surto ter começado, restaram poucos sobreviventes, entre eles Malorie e dois filhos pequenos. Ela sonha em fugir para um local onde a família possa ficar em segurança, mas a viagem que tem pela frente é assustadora: uma decisão errada e eles morrerão.",
+      "price": 27.9,
+      "categoriaId": "best-sellers",
+      "autorId": "josh-malerman",
+      "autorName": "Josh Malerman",
+      "numeroPaginas": 272,
+      "editora": "Estação Brasil",
+      "anoEdicao": "2017"
+    },
+    {
+      "id": "assombracao-da-casa-da-colina",
+      "name": "A Assombração da Casa da Colina",
+      "rating": 4.8,
+      "imagePath": "assets/img/assombracao-colina.jpg",
+      "about": "Considerada uma das melhores histórias de terror do século XX, a A assombração da Casa da Colina promete calafrios aos seus leitores. Vista por mestres como Stephen King e Neil Gaiman como a rainha do terror, Shirley Jackson entrega um livro perturbador sobre a relação entre a loucura e o sobrenatural. Sozinha no mundo, Eleanor fica encantada ao receber uma carta do dr. Montague convidando-a para passar um tempo na Casa da Colina, um local conhecido por suas manifestações fantasmagóricas. O mesmo convite é feito a Theodora, uma alma artística e “sensitiva”, e a Luke, o herdeiro da mansão. Mas o que começa como uma exploração bem-humorada de um mito inocente se transforma em uma viagem para os piores pesadelos de seus moradores. Com o tempo, fica cada vez mais claro que a vida, e a sanidade, de todos está em risco. “A história de casa mal-assombrada mais próxima da perfeição que eu já li.” — Stephen King",
+      "price": 47.9,
+      "categoriaId": "terror",
+      "autorId": "shirley-jackson",
+      "autorName": "Shirley Jackson",
+      "numeroPaginas": 240,
+      "editora": "Suma De Letras",
+      "anoEdicao": "2018"
+    },
+    {
+      "id": "it-a-coisa",
+      "name": "It - A Coisa ",
+      "rating": 4.8,
+      "imagePath": "assets/img/it-a-coisa.jpg",
+      "about": "Durante as férias escolares de 1958, em Derry, pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança e... do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permanece em Derry, dá o sinal. Precisam unir forças novamente. A Coisa volta a atacar e eles devem cumprir a promessa selada com sangue que fizeram quando crianças. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. O tempo é curto, mas somente eles podem vencer a Coisa. Em It - A Coisa, clássico de Stephen King em nova edição, os amigos irão até o fim, mesmo que isso signifique ultrapassar os próprios limites.",
+      "price": 74.9,
+      "categoriaId": "terror",
+      "autorId": "king-stephen",
+      "autorName": "Stephen King",
+      "numeroPaginas": 1104,
+      "editora": "Suma De Letras",
+      "anoEdicao": "2014"
+    }
+  ],
+  "autors": [
+    {
+      "id": "flanagan-david",
+      "name": "David Flanagan"
+    },
+    {
+      "id": "lindsay-bassett",
+      "name": "Lindsay Bassett"
+    },
+    {
+      "id": "shirley-jackson",
+      "name": "Shirley Jackson"
+    },
+    {
+      "id": "marky-manson",
+      "name": "Mark Manson"
+    },
+    {
+      "id": "kankyo-tannier",
+      "name": "Kankyo Tannier"
+    },
+    {
+      "id": "jorge-caldeira",
+      "name": "Jorge Caldeira"
+    },
+    {
+      "id": "josh-malerman",
+      "name": "Josh-Malerman"
+    },
+    {
+      "id": "king-stephen",
+      "name": "Stephen King"
+    },
+    {
+      "id": "david-meerman-scott",
+      "name": "David Meerman Scott"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Ótimo livro. Muito completo!",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Aline",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.3,
+      "comments": "Leitura obrigatária! Muito bom livro",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Livro de referencia objetivo e claro.Recomendo do iniciante ao avançado. São mais de 1000 páginas sem enrolação. Na minha opinião este livro não pode faltar ao seu acervo.",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Quero muito ler este livro, porém, infelizmente não funciona no aparelho Kindle geração 8. Por Favor disponibilizar para os leitores.",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Daniela",
+      "date": "2017-01-23T18:25:43",
+      "rating": 2,
+      "comments": "O ideal é que os livros de programação tenham exemplos práticos, usuais, e não somente exemplos acadêmicos, infantis, exemplos usados na maioria das aplicações, como logins de sistemas, recuperação de dados, e etc.",
+      "livroId": "introducao-ao-json"
+    },
+    {
+      "name": "Laila",
+      "date": "2017-02-02T18:25:43",
+      "rating": 5,
+      "comments": "Ótimo livro. Possui uma didática muito boa e aborda os assuntos de forma clara e simes. Utilizo hoje muitas dicas que aprendi com ele.",
+      "livroId": "introducao-ao-json"
+    },
+    {
+      "name": "Suzana",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2.2,
+      "comments": "O livro enrola demais para chegar no que interesse, em vez de falar sobre JSON fica contando historinhas nada com nada para justificar porque o exemplo da autora",
+      "livroId": "introducao-ao-json"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 3,
+      "comments": "Mediano. Sim, é um livro de autoajuda. Muitas temáticas exploradas pelo autor são interessantes, mas, de certo modo, lugares-comuns",
+      "livroId": "a-sutil-arte-de-ligar-o-foda-se"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente livro. Muitos insights para aplicar imediatamente. Um tratado contra o vitimismo e a favor do protagonismo. Você é responsável por sua vida, mesmo que não tenha culpa pelos fatos que te ocorreram.",
+      "livroId": "a-sutil-arte-de-ligar-o-foda-se"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 1.2,
+      "comments": "Eu esperava um livro mais profundo pelas altas avaliações e comentários em geral, porém achei um livro muito raso, parece q você está lendo o diário do autor.",
+      "livroId": "a-sutil-arte-de-ligar-o-foda-se"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "A entrega foi rápido. Ótimo livro! Indico a leitura",
+      "livroId": "a-sutil-arte-de-ligar-o-foda-se"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente como sempre!",
+      "livroId": "a-sutil-arte-de-ligar-o-foda-se"
+    },
+    {
+      "name": "Marcelo",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "O livro é bem didático, vai do básico ao avançado, até o momento estou gostando bastante, tem muitos exemplos práticos e explica detalhamente todos os recurso utilizados. Recomendo para quem quer aprender realmente o javascript.",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Fatinha",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4,
+      "comments": "O livro tem um ótimo conteúdo porem fica evidente que a tradução foi feita por quem não é da área, a tradução da Bookman fica muito atrás das feitas pela Novatec",
+      "livroId": "javascript-guia-definitivo"
+    },
+    {
+      "name": "Lucas",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "Leitura indispensável!",
+      "livroId": "historia-riqueza"
+    },
+    {
+      "name": "Jacira",
+      "date": "2017-02-01T18:25:43",
+      "rating": 4.5,
+      "comments": "Leitura para apreciadores da história do brasil colônia até a democracia contemporânea, recomendo para pessoas que gostam de detalhes da nossa rica cultura e não tem pressa para terminar de ler o livro. ",
+      "livroId": "historia-riqueza"
+    },
+    {
+      "name": "Ana",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Rápido e sempre uma delicia!! Ja pedi 3x e sempre veio rapido e tudo certinho.",
+      "livroId": "caixa-passaros"
+    },
+    {
+      "name": "Larissa",
+      "date": "2017-02-02T18:25:43",
+      "rating": 4.5,
+      "comments": "O livro é facilmente admirável pela maneira que foi escrito. Ao intercalar entre presente e passado, o autor consegue nos prender do início ao fim e, ao mesmo tempo, nos faz criar diversas teorias sobre a trama. A maneira como o estilo de vida das personagens é descrito, incluindo a angústia e o constante medo vivido por eles é sensacional. Não há como não torcer e não se apaixonar por malorie (protagonista do livro). Embora o final deixe um pouco a desejar, isso não tira o mérito do restante. Um livro excelente!",
+      "livroId": "caixa-passaros"
+    },
+    {
+      "name": "Jarbas",
+      "date": "2016-12-15T18:25:43",
+      "rating": 4.7,
+      "comments": "Excelente e chegou muito rápido!",
+      "livroId": "a-magia-do-silencio"
+    },
+    {
+      "name": "Rafaela",
+      "date": "2017-01-12T18:25:43",
+      "rating": 5,
+      "comments": "A abordagem da autora sobre meditação e silêncio é interessante. Permite a prática em pequenos momentos do cotidiano. Boa leitura.",
+      "livroId": "a-magia-do-silencio"
+    },
+    {
+      "name": "Julia",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Adorei, um livro para ler e reler.",
+      "livroId": "a-magia-do-silencio"
+    },
+    {
+      "name": "Marília",
+      "date": "2016-12-20T18:25:43",
+      "rating": 3.5,
+      "comments": "Mediano!",
+      "livroId": "a-magia-do-silencio"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "best-sellers",
+      "name": "Best Sellers"
+    },
+    {
+      "id": "programacao",
+      "name": "Programação"
+    },
+    {
+      "id": "auto-ajuda",
+      "name": "Auto-Ajuda"
+    },
+    {
+      "id": "economia",
+      "name": "Economia"
+    },
+    {
+      "id": "marketing",
+      "name": "Marketing"
+    },
+    {
+      "id": "terror",
+      "name": "Terror"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Rhadá Costa",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Rua 101",
+      "number": "1234",
+      "optionalAddress": "Cond. Prédio",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "javascript-guia-definitivo",
+          "name": "JavaScript: O Guia Definitivo",
+          "price": 158.34,
+          "total": 158.34
+        },
+        {
+          "quantity": 2,
+          "menuId": "a-sutil-arte-de-ligar-o-foda-se",
+          "name": "A Sutil Arte De Ligar O Foda-Se",
+          "price": 23.9,
+          "total": 47.8
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Alberto Soares",
+      "email": "alberto@email.com",
+      "emailConfirmation": "alberto@email.com",
+      "address": "Rua 1231",
+      "number": "1231",
+      "optionalAddress": "Adda",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "historia-riqueza",
+          "name": "História Da Riqueza No Brasil",
+          "price": 55.9,
+          "total": 55.9
+        },
+        {
+          "quantity": 2,
+          "menuId": "caixa-passaros",
+          "name": "Caixa De Pássaros",
+          "price": 27.9,
+          "total": 55.8
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Jasmim",
+      "email": "jasmin@email.com",
+      "emailConfirmation": "jasmin@email.com",
+      "address": "Rua 332",
+      "number": "1234",
+      "optionalAddress": "Qd. 453",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "introducao-ao-json",
+          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
+          "price": 78.9,
+          "total": 157.8
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Rhadá",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Rua A-1",
+      "number": "123456",
+      "optionalAddress": "Qd. 123",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "assombracao-da-casa-da-colina",
+          "name": "A Assombração da Casa da Colina",
+          "price": 47.9,
+          "total": 95.8
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Rhadá Costa",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Avenida 01",
+      "number": "12345",
+      "optionalAddress": "dadada",
+      "paymentOption": "DEB",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "marketing-comunicacao-na-era-digital",
+          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
+          "price": 71.9,
+          "total": 143.8
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Rhadá Costa",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Avenida 1234",
+      "number": "1234",
+      "optionalAddress": "1234",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "marketing-comunicacao-na-era-digital",
+          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
+          "price": 71.9,
+          "total": 143.8
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Rhadá Costa ",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Avenida 01",
+      "number": "12",
+      "optionalAddress": "123",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 4,
+          "menuId": "it-a-coisa",
+          "name": "It - A Coisa ",
+          "price": 74.9,
+          "total": 299.6
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Rhadá Costa",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Avenida 123456",
+      "number": "123456",
+      "optionalAddress": "123456",
+      "paymentOption": "DEB",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "introducao-ao-json",
+          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
+          "price": 78.9,
+          "total": 157.8
+        },
+        {
+          "quantity": 3,
+          "menuId": "javascript-guia-definitivo",
+          "name": "JavaScript: O Guia Definitivo",
+          "price": 158.34,
+          "total": 475.02
+        },
+        {
+          "quantity": 1,
+          "menuId": "marketing-comunicacao-na-era-digital",
+          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
+          "price": 71.9,
+          "total": 71.9
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "slides": [
+    {
+      "id": "slide01",
+      "title": "A Magia do Silêncio",
+      "description": "Um olhar moderno e descontraído sobre práticas e tradições milenares que conduzem à calma e à serenidade",
+      "link": "a-magia-do-silencio",
+      "image": "assets/img/a-magia-do-silencio.jpg"
+    },
+    {
+      "id": "slide02",
+      "title": "A Sutil Arte De Ligar O Foda-Se",
+      "description": "Livre-se agora da felicidade maquiada e superficial e abrace esta arte verdadeiramente transformadora.",
+      "link": "a-sutil-arte-de-ligar-o-foda-se",
+      "image": "assets/img/a-sutil-arte-de-ligar-o-foda-se.jpg"
+    },
+    {
+      "id": "slide03",
+      "title": "It - A Coisa",
+      "description": "O clássico de Stephen King em uma nova edição",
+      "link": "it-a-coisa",
+      "image": "assets/img/it-a-coisa.jpg"
+    }
+  ]
+}
