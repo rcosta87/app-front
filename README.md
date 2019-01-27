@@ -24,12 +24,12 @@ $ ng serve
 ```
 # 1.Iniciando o Backend
 
-### 1.Instalando o json-server
+### Instalando o json-server
 ```sh
 $ npm install -g json-server
 ```
 
-### 2.Iniciando o serviço (raiz da aplicação)
+### Iniciando o serviço (raiz da aplicação)
 ```sh
 $ json-server db.json
 ```
