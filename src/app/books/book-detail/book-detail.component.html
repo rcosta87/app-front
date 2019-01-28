@@ -38,7 +38,7 @@
 
         <div class="reviews-card">
             <h1>Reviews</h1>
-            <div *ngIf="reviews?.length !== 0">
+            <div>
                 <div *ngFor="let review of reviews">
                     <mt-reviews-book [review]="review"></mt-reviews-book>
                     <div *ngIf="reviews?.length === 0" class="col-xs-12">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div *ngIf="reviews?.length == 0">
                 <p>Ainda não há nenhuma avaliação para este livro</p>
             </div>
 
