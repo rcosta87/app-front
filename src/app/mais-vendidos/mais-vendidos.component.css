@@ -49,6 +49,11 @@ a.slide-book:visited {
     color: #555;
 }
 
+.all-books-wrap {
+    width: 100%;
+    text-align: center;
+}
+
 .all-books {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -62,7 +67,4 @@ a.slide-book:visited {
     transition: all .4s ease-in;
     text-align: center;
     text-decoration: none;
-    position: absolute;
-    left: 50%;
-    transform: translateY(-50%);
 }

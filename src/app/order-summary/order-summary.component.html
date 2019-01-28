@@ -21,16 +21,16 @@
                         </thead>
                         <tbody>
                             <tr *ngFor="let item of orderItens">
-                                <td>{{item?.name}}</td>
-                                <td>{{item?.quantity}}</td>
-                                <td>{{item?.price | currency: 'BRL': true}}</td>
-                                <td>{{item?.total | currency: 'BRL': true}}</td>
+                                <td align="left">{{item?.name}}</td>
+                                <td align="left">{{item?.quantity}}</td>
+                                <td align="left">{{item?.price | currency: 'BRL': true}}</td>
+                                <td align="left">{{item?.total | currency: 'BRL': true}}</td>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td>Frete : {{order.frete | currency: 'BRL': true}}</td>
-                                <td>Valor Total : {{valueTotalCart | currency: 'BRL': true}}</td>
+                                <td align="left"></td>
+                                <td align="left"></td>
+                                <td align="left">Frete : {{order.frete | currency: 'BRL': true}}</td>
+                                <td align="left">Valor Total : {{valueTotalCart | currency: 'BRL': true}}</td>
                             </tr>
                         </tbody>
                     </table>

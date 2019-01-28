@@ -27,12 +27,14 @@ import { CategoriaComponent } from './categorias/categoria/categoria.component';
 import { CategoriaDetailComponent } from './categorias/categoria-detail/categoria-detail.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 
-import { SlickModule } from 'ngx-slick';
 import { SlideComponent } from './carrousel/slide/slide.component';
 import { MaisVendidosComponent } from './mais-vendidos/mais-vendidos.component';
 import { TitleSectionComponent } from './title-section/title-section.component';
 import { ShoppingIconComponent } from './header/shopping-icon/shopping-icon.component';
 import { PageIntroComponent } from './page-intro/page-intro.component';
+
+
+import { SlickModule } from 'ngx-slick';
 
 
 @NgModule({
