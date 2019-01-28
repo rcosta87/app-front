@@ -38,14 +38,20 @@
 
         <div class="reviews-card">
             <h1>Reviews</h1>
-            <div *ngFor="let review of reviews">
-                <mt-reviews-book [review]="review"></mt-reviews-book>
-                <div *ngIf="reviews?.length === 0" class="col-xs-12">
-                    <p class="lead text-center">
-                        Não foram encontrados itens para a sua busca.
-                    </p>
+            <div *ngIf="reviews?.length !== 0">
+                <div *ngFor="let review of reviews">
+                    <mt-reviews-book [review]="review"></mt-reviews-book>
+                    <div *ngIf="reviews?.length === 0" class="col-xs-12">
+                        <p class="lead text-center">
+                            Não foram encontrados itens para a sua busca.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div>
+                <p>Ainda não há nenhuma avaliação para este livro</p>
+            </div>
+
         </div>
 
     </div>

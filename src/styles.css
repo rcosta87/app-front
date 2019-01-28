@@ -6,6 +6,10 @@
    License: none (public domain)
 */
 
+a.danger {
+    font-weight: bold;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Caudex');
 .carrousel-mais-vendidos .slick-prev:before,

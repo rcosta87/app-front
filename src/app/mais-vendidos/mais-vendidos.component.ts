@@ -10,7 +10,22 @@ import { Component, OnInit } from '@angular/core';
 export class MaisVendidosComponent implements OnInit {
 
   livros: Livro[];
-  slideConfigSells = {"slidesToShow": 3, "slidesToScroll": 3, "autoplay": false, "arrows": true};
+  slideConfigSells = {
+    "slidesToShow": 3,
+    "slidesToScroll": 3,
+    "autoplay": false,
+    "arrows": true,
+    "responsive": [
+      {
+        "breakpoint": 768,
+        "settings": {
+          "slidesToShow": 1,
+          "slidesToScroll": 1,
+        }
+      },
+    ]
+
+  };
 
 
   constructor(private bookService: BooksService) {}

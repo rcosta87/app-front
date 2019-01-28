@@ -584,63 +584,42 @@
       "id": 10
     },
     {
-      "name": "Carla ",
-      "email": "carla@email.com",
-      "emailConfirmation": "carla@email.com",
-      "address": "Avenida 123354",
-      "number": "12354",
-      "optionalAddress": "123654",
-      "paymentOption": "MON",
+      "name": "Alberto",
+      "email": "alberto@email.com",
+      "emailConfirmation": "alberto@email.com",
+      "address": "Avenida 0123",
+      "number": "140",
+      "optionalAddress": "Avenida 5",
+      "paymentOption": "DEB",
       "frete": 8,
       "orderItems": [
         {
-          "quantity": 1,
-          "menuId": "a-magia-do-silencio",
-          "name": "A Magia do Silêncio",
-          "price": 34.7,
-          "total": 34.7
-        },
-        {
           "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
+          "menuId": "it-a-coisa",
+          "name": "It - A Coisa ",
+          "price": 74.9,
+          "total": 149.8
         },
         {
           "quantity": 3,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 475.02
+          "menuId": "introducao-ao-json",
+          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
+          "price": 78.9,
+          "total": 236.70000000000002
         }
       ],
       "id": 11
     },
     {
-      "name": "João Campos",
-      "email": "joao@gmail.com",
-      "emailConfirmation": "joao@gmail.com",
-      "address": "Avenida 1234",
-      "number": "12452",
-      "optionalAddress": "2154",
-      "paymentOption": "DEB",
+      "name": "Rhadá",
+      "email": "rhadacosta@gmail.com",
+      "emailConfirmation": "rhadacosta@gmail.com",
+      "address": "Minha Rua 01",
+      "number": "14523",
+      "optionalAddress": "Qd. 012",
+      "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
-        },
-        {
-          "quantity": 3,
-          "menuId": "a-sutil-arte-de-ligar-o-foda-se",
-          "name": "A Sutil Arte De Ligar O Foda-Se",
-          "price": 23.9,
-          "total": 71.69999999999999
-        },
         {
           "quantity": 2,
           "menuId": "assombracao-da-casa-da-colina",
@@ -650,6 +629,26 @@
         }
       ],
       "id": 12
+    },
+    {
+      "name": "Maria",
+      "email": "maria@gmail.com",
+      "emailConfirmation": "maria@gmail.com",
+      "address": "Avenida 1234",
+      "number": "143",
+      "optionalAddress": "dada",
+      "paymentOption": "DEB",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "javascript-guia-definitivo",
+          "name": "JavaScript: O Guia Definitivo",
+          "price": 158.34,
+          "total": 316.68
+        }
+      ],
+      "id": 13
     }
   ],
   "slides": [

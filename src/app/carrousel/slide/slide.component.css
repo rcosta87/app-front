@@ -6,8 +6,26 @@
     background-repeat: no-repeat !important;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "a b";
+}
+
+@media (max-width: 768px) {
+    .slide-item {
+        grid-template-columns: 1fr;
+        grid-template-areas: "a" "b";
+    }
+    .slide-content {
+        padding-left: 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .slide-item {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b";
+    }
+    .slide-content {
+        padding-left: 95px;
+    }
 }
 
 .slide-content {
@@ -20,10 +38,6 @@
     grid-area: b;
     justify-self: center;
     align-self: center;
-}
-
-.slide-content {
-    padding-left: 95px;
 }
 
 .slide-content h1 {
