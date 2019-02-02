@@ -649,6 +649,26 @@
         }
       ],
       "id": 13
+    },
+    {
+      "name": "Maria Joaquina",
+      "email": "maria@gmail.com",
+      "emailConfirmation": "maria@gmail.com",
+      "address": "Avenida 1254",
+      "number": "1245",
+      "optionalAddress": "Avenida 5",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 3,
+          "menuId": "javascript-guia-definitivo",
+          "name": "JavaScript: O Guia Definitivo",
+          "price": 158.34,
+          "total": 475.02
+        }
+      ],
+      "id": 14
     }
   ],
   "slides": [
