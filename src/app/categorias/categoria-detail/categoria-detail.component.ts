@@ -15,6 +15,7 @@ export class CategoriaDetailComponent implements OnInit {
 
   livros: Livro[]
   categoria: Categoria
+  message: string
 
 
   constructor(private categoriasService: CategoriasService,
@@ -29,5 +30,13 @@ export class CategoriaDetailComponent implements OnInit {
       .subscribe(livros => this.livros = livros)
 
   }
+
+  getCatName():string{
+    if(this.categoria !== undefined){
+      return "Livros com a categoria: " + this.categoria.name;
+    }
+  }
+
+
 
 }

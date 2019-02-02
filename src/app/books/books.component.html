@@ -1,16 +1,9 @@
 <!-- INíCIO do CONTEÚDO -->
 <mt-page-intro [title]="'Seu próximo livro está aqui!'"></mt-page-intro>
 <div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <section class="content">
-                <div class="row">
-                    <div *ngFor="let livro of livros" class="col-sm-6 col-xs-12">
-                        <mt-book [livro]="livro"></mt-book>
-                    </div>
-                </div>
-
-            </section>
+    <div class="livro-wrapper">
+        <div *ngFor="let livro of livros" class="livro-item">
+            <mt-book [livro]="livro"></mt-book>
         </div>
     </div>
 </div>
