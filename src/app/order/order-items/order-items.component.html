@@ -25,7 +25,7 @@
                             <td>
                                 <a [routerLink]="['/livros', item.menuItem.id]">{{item.menuItem.name}}</a>
                             </td>
-                            <td class="text-left">{{item.value() | currency: 'BRL': true}}</td>
+                            <td class="text-left">{{item.value() | currency: 'BRL': 'symbol'}}</td>
                             <td class="text-left">
                                 <a (click)="emitRemove(item)" class="btn btn-sm danger">X</a>
                             </td>

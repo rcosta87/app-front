@@ -21,17 +21,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr *ngFor="let item of orderItens">
-                                    <td align="left">{{item?.name}}</td>
-                                    <td align="left">{{item?.quantity}}</td>
-                                    <td align="left">{{item?.price | currency: 'BRL': true}}</td>
-                                    <td align="left">{{item?.total | currency: 'BRL': true}}</td>
-                                </tr>
+                                <tr *ngFor="let item of orderItens" mt-order-summary-itens [orderItem]=item></tr>
                                 <tr>
                                     <td align="left"></td>
                                     <td align="left"></td>
-                                    <td align="left">Frete : {{order.frete | currency: 'BRL': true}}</td>
-                                    <td align="left">Valor Total : {{valueTotalCart | currency: 'BRL': true}}</td>
+                                    <td align="left">Frete : {{order?.frete | currency: 'BRL': 'symbol'}}</td>
+                                    <td align="left">Valor Total : {{valueTotalCart | currency: 'BRL': 'symbol'}}</td>
                                 </tr>
                             </tbody>
                         </table>

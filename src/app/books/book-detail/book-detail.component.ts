@@ -1,12 +1,11 @@
-import { CartItem } from './shopping-cart/cart-item.model';
-
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { ActivatedRoute } from "@angular/router";
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from "@angular/router";
 import { BooksService } from './../books.service';
-import { Livro } from './../book/book.model';
-
-import { ShoppingCartService } from './../book-detail/shopping-cart/shopping-cart.service';
-import { ReviewofBook } from './reviews-book/reviews.model';
+import { ShoppingCartService } from '../../shopping-cart/shopping-cart.service';
+import { tap } from 'rxjs/operators'
+import { Book } from '../book/book.model'
+import { CategoriesService } from 'app/categories/categories.service';
+import { Category } from 'app/categories/category/category.model';
 
 
 @Component({
@@ -16,33 +15,41 @@ import { ReviewofBook } from './reviews-book/reviews.model';
 })
 export class BookDetailComponent implements OnInit {
 
-  livro: Livro;
-  quantidade: number = 0;
-  reviews: ReviewofBook[]
+  book: Book
+  quantidade: number = 0
+  authorName: string
+  section: string
+  catName: Category
 
   constructor(
     private bookService: BooksService,
-    private route: ActivatedRoute,
-    private shoppingCartService: ShoppingCartService
+    private shoppingCartService: ShoppingCartService,
+    private activatedRoute: ActivatedRoute,
+    private categoriesService: CategoriesService
   ) {}
 
   ngOnInit() {
-    this.bookService
-      .bookById(this.route.snapshot.params["id"])
-      .subscribe(livro => (this.livro = livro));
+    this.bookService.bookById(this.activatedRoute.snapshot.params['id'])
+      .pipe(
+        tap(autorBook => this.bookService.authorOfBook(autorBook.autorId)
+          .subscribe(author =>  this.authorName = author.name)
+        ),
+        tap(catName => this.categoriesService.categoryDetail(catName.categoriaId)
+          .subscribe(cat => this.catName = cat)
+        )
+      )
+      .subscribe(book =>  this.book = book)
+  }
 
-    this.bookService
-      .reviewsOfBook(this.route.snapshot.params["id"])
-      .subscribe(reviews => this.reviews = reviews);
+  getSection(title:string){
+    this.section = title
   }
 
   emitAddEvent(){
-    this.shoppingCartService.addItem(this.livro, this.quantidade);
+    this.shoppingCartService.addItem(this.book);
   }
 
-  plusQuantity(){
-    this.quantidade = this.quantidade + 1;
-  }
+
 
 }
 

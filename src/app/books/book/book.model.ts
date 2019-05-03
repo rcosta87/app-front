@@ -1,5 +1,4 @@
-import { Categoria } from './../../categorias/categoria/categoria.model';
-export interface Livro {
+export interface Book {
   id: string;
   name: string;
   rating: number;
@@ -7,8 +6,7 @@ export interface Livro {
   about?: string;
   price: number;
   categoriaId?: string,
-  autorId: string,
-  autorName: string,
+  autorId?: string,
   numeroPaginas: number,
   editora: string,
   anoEdicao: string,

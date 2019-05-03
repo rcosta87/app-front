@@ -1,7 +1,7 @@
 export interface ReviewofBook {
   name: string;
   date: string;
-  rating: string;
+  rating: number;
   comments: string;
   livroId: string;
 }

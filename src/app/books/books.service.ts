@@ -1,44 +1,35 @@
-import { Categoria } from './../categorias/categoria/categoria.model';
-import {Injectable} from '@angular/core'
-import {Http} from '@angular/http'
+import { Injectable, EventEmitter } from '@angular/core'
+import { HttpClient, HttpParams } from '@angular/common/http'
+import { Observable, Subject } from 'rxjs'
+import { Book } from "./book/book.model"
+import { BOOK_API } from '../app.api'
 
-import {Observable} from 'rxjs/Observable'
-import 'rxjs/add/operator/map'
-import 'rxjs/add/operator/catch'
-
-import {Livro} from "./book/book.model"
-
-import {BOOK_API} from '../app.api'
-import {ErrorHandler} from '../app.error-handler'
 
 @Injectable()
 export class BooksService {
 
-    constructor(private http: Http){}
 
-    books(search?: string): Observable<Livro[]> {
-      return this.http.get(`${BOOK_API}/livros`, {params: {q: search}})
-        .map(response => response.json())
-        .catch(ErrorHandler.handleError)
+    private book = new Subject<Book>()
+
+    constructor(private http: HttpClient){}
+
+    books(search?: string): Observable<Book[]> {
+      let params: HttpParams = undefined
+      if(search){
+        params = new HttpParams().set('q', search)
+      }
+      return this.http.get<Book[]>(`${BOOK_API}/livros`, {params: params})
     }
 
-    bookById(id: string): Observable<Livro>{
-      return this.http.get(`${BOOK_API}/livros/${id}`)
-        .map(response => response.json())
-        .catch(ErrorHandler.handleError)
+    bookById(id: string): Observable<Book>{
+      return this.http.get<Book>(`${BOOK_API}/livros/${id}`)
     }
 
     reviewsOfBook(id: string): Observable<any>{
       return this.http.get(`${BOOK_API}/livros/${id}/reviews`)
-        .map(response => response.json())
-        .catch(ErrorHandler.handleError)
     }
 
-    categoriesOfBook(id: string): Observable<Categoria>{
-      return this.http.get(`${BOOK_API}/categorias/${id}`)
-        .map(response => response.json())
-        .catch(ErrorHandler.handleError)
+    authorOfBook(id:string): Observable<any>{
+      return this.http.get(`${BOOK_API}/autors/${id}`)
     }
-
-
 }

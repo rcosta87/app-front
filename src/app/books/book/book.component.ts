@@ -1,9 +1,9 @@
-import { Categoria } from './../../categorias/categoria/categoria.model';
 import { Component, OnInit, Input} from '@angular/core';
-import { Livro } from "./book.model";
-
-import { CategoriasService } from './../../categorias/categorias.service';
-
+import { Book } from "./book.model";
+import { CategoriesService } from 'app/categories/categories.service';
+import { Observable } from 'rxjs';
+import { Category } from 'app/categories/category/category.model';
+import { BooksService } from '../books.service';
 
 @Component({
   selector: 'mt-book',
@@ -13,14 +13,12 @@ import { CategoriasService } from './../../categorias/categorias.service';
 export class BookComponent implements OnInit {
 
 
-  @Input() livro: Livro;
-  categoria: Categoria
+  @Input() book: Book;
 
-  constructor(private categoriaService: CategoriasService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.categoriaService.categoriaByID(this.livro.categoriaId)
-      .subscribe(categoria => this.categoria = categoria)
+
   }
 
 

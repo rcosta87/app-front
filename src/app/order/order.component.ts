@@ -1,22 +1,25 @@
-import { Livro } from './../books/book/book.model';
-import { BooksService } from './../books/books.service';
-import { Observable } from 'rxjs/Observable';
-import { Component, OnInit, Output, EventEmitter} from '@angular/core';
-import {FormGroup, FormBuilder, Validators, AbstractControl} from '@angular/forms'
+import { Book} from './../books/book/book.model';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators, AbstractControl } from '@angular/forms'
 
-import {Router} from '@angular/router'
+import { Router } from '@angular/router'
 
-import {RadioOption} from '../shared/radio/radio-option.model'
-import {OrderService} from './order.service'
-import { CartItem } from './../books/book-detail/shopping-cart/cart-item.model';
-import {Order, OrderItem} from "./order.model"
+import { RadioOption } from '../shared/radio/radio-option.model'
+import { OrderService } from './order.service'
+import { CartItem } from '../shopping-cart/cart-item.model';
+import { Order, OrderItem } from "./order.model"
+import { tap } from 'rxjs/operators'
+import { User } from 'app/auth/login/user.model';
+import { LoginService } from 'app/auth/login.service';
 
 @Component({
   selector: 'mt-order',
   templateUrl: './order.component.html',
-  styleUrls: ['./../page-intro/page-intro.component.css', './order.component.css']
+  styleUrls: ['./../shared/page-intro/page-intro.component.css', './order.component.css']
 })
 export class OrderComponent implements OnInit {
+
+
 
   emailPattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
 
@@ -24,11 +27,15 @@ export class OrderComponent implements OnInit {
 
   orderForm: FormGroup
 
-  livro: Livro
+  book: Book
 
   delivery: number = 8
 
   valorTotal: number;
+
+  orderId: string
+
+  user: User
 
   paymentOptions: RadioOption[] = [
     {label: 'Boleto', value: 'MON'},
@@ -38,13 +45,17 @@ export class OrderComponent implements OnInit {
   constructor(private orderService: OrderService,
               private router: Router,
               private formBuilder: FormBuilder,
-              private bookService: BooksService) { }
+              private loginService: LoginService) { }
 
   ngOnInit() {
+    if(this.loginService.isLoggedIn()){
+      this.user = this.loginService.getCurrentUser()
+    }
+
     this.orderForm = this.formBuilder.group({
-      name: this.formBuilder.control('', [Validators.required, Validators.minLength(5)]),
-      email: this.formBuilder.control('', [Validators.required, Validators.pattern(this.emailPattern)]),
-      emailConfirmation: this.formBuilder.control('', [Validators.required, Validators.pattern(this.emailPattern)]),
+      name: this.formBuilder.control(this.loginService.isLoggedIn() ? this.user.name : '', [Validators.required, Validators.minLength(5)]),
+      email: this.formBuilder.control(this.loginService.isLoggedIn() ? this.user.email : '', [Validators.required, Validators.pattern(this.emailPattern)]),
+      emailConfirmation: this.formBuilder.control(this.loginService.isLoggedIn() ? this.user.email : '', [Validators.required, Validators.pattern(this.emailPattern)]),
       address: this.formBuilder.control('', [Validators.required, Validators.minLength(5)]),
       number: this.formBuilder.control('', [Validators.required, Validators.pattern(this.numberPattern)]),
       optionalAddress: this.formBuilder.control(''),
@@ -90,15 +101,19 @@ export class OrderComponent implements OnInit {
 
   checkOrder(order: Order){
     order.frete = this.delivery;
-    order.orderItems = this.cartItems()
-      .map((item:CartItem)=> new OrderItem(item.quantity, item.menuItem.id, item.menuItem.name, item.menuItem.price, this.calcTotal(item)))
+    order.orderItems = this.cartItems().map((item:CartItem)=> new OrderItem(item.quantity, item.menuItem.id, item.menuItem.name, item.menuItem.price, this.calcTotal(item)))
     this.orderService.checkOrder(order)
+      .pipe(
+        tap(orderId => this.orderId = orderId)
+      )
       .subscribe((orderId: string) => {
-        this.router.navigate(['/order-summary'])
+        this.router.navigate(['/order-summary', orderId])
         this.orderService.clear()
     })
-    console.log(order)
+  }
 
+  isOrderCompleted() : boolean {
+    return this.orderId !== undefined
   }
 
 }

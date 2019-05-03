@@ -1,7 +1,5 @@
-import { Observable } from 'rxjs/Observable';
-import { ActivatedRoute } from '@angular/router';
-import { BooksService } from './../../books.service';
-import { Component, OnInit, Input } from '@angular/core';
+import { BooksService } from '../../books.service';
+import { Component, OnInit, Input} from '@angular/core';
 import { ReviewofBook } from './reviews.model';
 
 @Component({
@@ -11,12 +9,14 @@ import { ReviewofBook } from './reviews.model';
 })
 export class ReviewsBookComponent implements OnInit {
 
-  @Input() review: ReviewofBook ;
+  @Input() reviewsId:string
+  reviews: ReviewofBook[] ;
 
-  constructor() { }
+  constructor(private booksService: BooksService) { }
 
   ngOnInit() {
-
+      this.booksService.reviewsOfBook(this.reviewsId)
+        .subscribe(reviews => this.reviews = reviews)
   }
 
 }

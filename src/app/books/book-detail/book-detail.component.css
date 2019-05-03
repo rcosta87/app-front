@@ -2,6 +2,7 @@
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 35px;
+
 }
 
 @media (max-width: 768px) {
@@ -120,3 +121,6 @@
 .livro-about p {
     font-family: 'Lato', serif;
 }
+
+
+

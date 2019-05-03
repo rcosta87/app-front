@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+
+
+
+            <div class="carrousel-mais-vendidos">
+
+                <mt-title-section [title]="'Mais Vendidos'"></mt-title-section>
+
+                <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfigSells">
+                    <a [routerLink]="['/livros', book.id]" ngxSlickItem *ngFor="let book of books" class="slide-book">
+                        <div class="livro-card">
+                            <div class="livro-image">
+                                <img [src]="book.imagePath" />
+                            </div>
+                            <div class="livro-content">
+                                <h2>{{book.name}}</h2>
+                                <p class="autor-name">{{book.autorName}}</p>
+                                <p class="price-book">{{book?.price | currency:'BRL': 'symbol'}}</p>
+                            </div>
+                        </div>
+                    </a>
+                </ngx-slick>
+
+                <div class="all-books-wrap">
+                    <a [routerLink]="['/livros']" class="all-books">Todos os livros</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

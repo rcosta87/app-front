@@ -1,5 +1,5 @@
 import {Response} from '@angular/http'
-import {Observable} from 'rxjs/Observable'
+import {Observable} from 'rxjs'
 import 'rxjs/add/observable/throw'
 
 export class ErrorHandler {

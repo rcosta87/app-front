@@ -1,8 +1,8 @@
-import { Livro } from './../books/book/book.model';
 import { OrderService } from './../order/order.service';
 
 import { Component, OnInit } from '@angular/core';
 import { Order, OrderItem } from 'app/order/order.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'mt-order-summary',
@@ -12,38 +12,31 @@ import { Order, OrderItem } from 'app/order/order.model';
 
 export class OrderSummaryComponent implements OnInit {
 
-
   rated: boolean
   order: Order
-  livro: Livro
   orderItens: OrderItem[];
-  valueTotalCart: number = 1;
+  valueTotalCart: number;
 
-  constructor(private oderService: OrderService) {}
+  constructor(private oderService: OrderService,
+              private activeRoute: ActivatedRoute) {}
 
   ngOnInit() {
-    this.order = this.oderService.getMyOrder();
-    this.getOrderItems(this.order);
-    console.log(this.orderItens)
-    let total = 0;
-    this.orderItens.forEach(function(el){
-      total = total + el.total;
-    });
-    this.valueTotalCart = total + this.order.frete;
+    this.oderService.getMyOrder(this.activeRoute.snapshot.params['id'])
+      .subscribe((order) => {
+        this.order = order
+        this.orderItens = order.orderItems;
+        this.valueTotalShopping()
+      })
   }
 
   rate() {
     this.rated = true
   }
 
-  getOrderItems(order: Order){
-    this.orderItens = order.orderItems;
+  valueTotalShopping(): void{
+    this.valueTotalCart = this.orderItens
+      .map(item => item.total)
+      .reduce((prev, value)=> prev+value, 0) + this.order.frete
   }
-
-  valueTotalShopping(): number{
-    this.orderItens.forEach
-    return this.valueTotalCart + this.order.frete;
-  }
-
 
 }

@@ -1,7 +1,7 @@
 import { SlideCarrousel } from './carrousel.model';
 import { CarrouselService } from './carrousel.service';
 import { Component, OnInit } from '@angular/core';
-import { BooksService } from './../books/books.service';
+
 
 @Component({
   selector: 'mt-carrousel',
@@ -19,5 +19,6 @@ export class CarrouselComponent implements OnInit {
     this.slideService.getSlides()
     .subscribe(slides => this.slides = slides)
   }
+
 
 }

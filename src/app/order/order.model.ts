@@ -1,5 +1,3 @@
-import { Livro } from './../books/book/book.model';
-
 class Order {
   constructor(
     public address: string,
@@ -7,12 +5,19 @@ class Order {
     public optionalAddress: string,
     public paymentOption: string,
     public orderItems: OrderItem[] = [],
-    public frete: number
+    public frete: number,
+    public id?: string
   ){}
 }
 
 class OrderItem {
-  constructor(public quantity: number, public menuId: string, public name: string, public price: number, public total:number){}
+  constructor(
+    public quantity: number,
+    public menuId: string,
+    public name: string,
+    public price: number,
+    public total:number
+  ){}
 }
 
 export {Order, OrderItem}
