@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, LOCALE_ID } from '@angular/core';
+import { NgModule, LOCALE_ID, ErrorHandler } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http'
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+
 
 
 import { registerLocaleData } from '@angular/common';
@@ -37,6 +38,9 @@ import { BookInfoComponent } from './books/book-detail/book-info/book-info.compo
 import { PanelComponent } from './books/book-detail/panel/panel.component';
 import { LoginComponent } from './auth/login/login.component';
 import { UserDetailComponent } from './auth/user-detail/user-detail.component';
+import { AplicationErrorHandler } from './app.error-handler';
+import { BgWaveComponent } from './header/bg-wave/bg-wave.component'
+
 
 
 @NgModule({
@@ -61,7 +65,8 @@ import { UserDetailComponent } from './auth/user-detail/user-detail.component';
     BookInfoComponent,
     PanelComponent,
     LoginComponent,
-    UserDetailComponent],
+    UserDetailComponent,
+    BgWaveComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -70,7 +75,8 @@ import { UserDetailComponent } from './auth/user-detail/user-detail.component';
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules,scrollPositionRestoration: 'enabled'}),
     SlickModule.forRoot()
   ],
-  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
+  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'},
+             {provide: ErrorHandler, useClass: AplicationErrorHandler}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

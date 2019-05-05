@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from 'app/auth/login.service';
 import { User } from 'app/auth/login/user.model';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'mt-user-detail',
@@ -16,8 +17,8 @@ export class UserDetailComponent implements OnInit {
 
   }
 
-  user(): User{
-    return this.loginService.getCurrentUser()
+  getUser():User{
+    return JSON.parse(localStorage.getItem("current_user"))
   }
 
   isLoggedIn(): boolean{

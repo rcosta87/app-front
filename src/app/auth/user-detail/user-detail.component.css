@@ -1,0 +1,36 @@
+a.login, span.logedin, span.logedin a{
+  color: #fff;
+  font-weight: bold;
+
+}
+
+span.logedin{
+  padding: 10px 15px;
+}
+
+span.logedin a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a.login{
+  cursor: pointer;
+}
+
+.login:hover{
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-menu{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+i.fa-user-circle{
+  font-size: 25px;
+  color: #fff;
+}

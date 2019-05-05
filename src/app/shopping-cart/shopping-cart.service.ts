@@ -10,7 +10,6 @@ import { NotificationService } from '../shared/messages/notification.service';
 export class ShoppingCartService {
 
   private counter = new Subject<number>();
-
   items: CartItem[] = []
 
   constructor(private notificationService: NotificationService){}

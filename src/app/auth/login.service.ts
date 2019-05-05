@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
-import { Observable } from 'rxjs';
-import { tap, filter } from 'rxjs/operators'
+import { HttpClient, HttpErrorResponse } from '@angular/common/http'
+import { Observable, Subject } from 'rxjs';
+import { tap, filter, catchError } from 'rxjs/operators'
 import { BOOK_API } from 'app/app.api';
-import { User } from './login/user.model';
+import { User } from './login/user.model'
 
 import { Router, NavigationEnd } from '@angular/router';
 
@@ -32,7 +32,7 @@ export class LoginService {
   login(username: string, password:string) : Observable<User>{
     return this.http.post<User>(`${BOOK_API}/login`, {userName: username, password: password})
         .pipe(
-          tap( response => {this.setSesstion(response)}),
+            tap( response => this.setSesstion(response))
           )
   }
 

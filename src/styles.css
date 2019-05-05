@@ -260,6 +260,9 @@ body {
 .main-footer {
     font-family: 'Lato', serif;
     font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
 }
 
 .place-info-box-text {

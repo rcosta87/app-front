@@ -19,22 +19,13 @@ import { LoginService } from 'app/auth/login.service';
 })
 export class OrderComponent implements OnInit {
 
-
-
   emailPattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
-
   numberPattern = /^[0-9]*$/
-
   orderForm: FormGroup
-
   book: Book
-
   delivery: number = 8
-
   valorTotal: number;
-
   orderId: string
-
   user: User
 
   paymentOptions: RadioOption[] = [

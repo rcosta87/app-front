@@ -14,9 +14,11 @@ import { PageIntroComponent } from '../shared/page-intro/page-intro.component';
 import { CategoriesService } from '../categories/categories.service'
 import { LoggedInGuard } from 'app/auth/loggedin.guard';
 import { LoginService } from 'app/auth/login.service';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AuthInterceptor } from '../auth/auth.interceptor'
+
 import { LeaveOrderGuard } from 'app/order/leave-order.guard';
+
+import { HTTP_INTERCEPTORS } from '@angular/common/http'
+import { AuthInterceptor } from '../auth/auth.interceptor'
 
 
 @NgModule({

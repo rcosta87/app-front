@@ -4,6 +4,8 @@ import { LoginService } from '../login.service';
 import { User } from './user.model'
 import { NotificationService } from 'app/shared/messages/notification.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { catchError } from 'rxjs/operators';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'mt-login',
@@ -33,9 +35,11 @@ export class LoginComponent implements OnInit {
 
   login(){
     this.loginService.login(this.loginForm.value.username, this.loginForm.value.password)
-      .subscribe(user => this.notificationService.notify(`Bem vindo, ${user.name}`),
-                 response => this.notificationService.notify(response.error.message),
-                 () => this.router.navigate([atob(this.navigateTo)]))
+      .subscribe(
+        user => this.notificationService.notify(`Bem vindo, ${user.name}`),
+        response => this.notificationService.notify(response.error.message),
+        () => this.router.navigate([atob(this.navigateTo)])
+      )
   }
 
 }
