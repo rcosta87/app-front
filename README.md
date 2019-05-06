@@ -1,6 +1,7 @@
 # Trabalho Final Fron-End Avançado
 
 Integrante: Rhadá Costa Ferreira
+
 Descrição: Template simulando um e-commerce de livros desenvolvido com Angular
 
 # Instruções para inicializar a aplicação
