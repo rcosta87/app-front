@@ -1,6 +1,7 @@
 # Trabalho Final Fron-End Avançado
 
 Integrante: Rhadá Costa Ferreira
+Descrição: Template simulando um e-commerce de livros desenvolvido com Angular
 
 # Instruções para inicializar a aplicação
 
@@ -31,6 +32,7 @@ $ npm install -g json-server
 
 ### Iniciando o serviço (raiz da aplicação)
 ```sh
-$ json-server db.json
+$ npm run server-db
 ```
+
 

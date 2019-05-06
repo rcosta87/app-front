@@ -1,6 +1,6 @@
-<a (click)="goToCategoryDetail(category)">
+<a [routerLink]="['/detalhe-categoria', category?.id]">
     <div class="categoria-card">
-        <h1 class="place-info-box-text">{{category.name}}</h1>
+        <h1 class="place-info-box-text">{{category?.name}}</h1>
         <div class="divisor"></div>
     </div>
 </a>

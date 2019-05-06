@@ -7,7 +7,7 @@
       "imagePath": "assets/img/javascript-guia.jpg",
       "about": "JavaScript é a linguagem de programação da Web. A maioria dos sites modernos usa JavaScript, e todos os navegadores – em computadores de mesa, consoles de jogos, tablets e smartphones – incluem interpretadores JavaScript. Isso a torna uma das linguagens de programação mais importantes atualmente e uma das tecnologias que todo desenvolvedor Web deve conhecer. Referência completa para programadores, JavaScript: O guia de?nitivo fornece uma ampla descrição da linguagem JavaScript básica e das APIs JavaScript do lado do cliente de?nidas pelos navegadores Web. Em sua 6ª edição, cuidadosamente reescrita para estar de acordo com as melhores práticas de desenvolvimento Web atuais, abrange ECMAScript 5 e HTML5 e traz novos capítulos que documentam jQuery e JavaScript do lado do servidor.Recomendado para programadores experientes que desejam aprender a linguagem de programação da Web e para programadores JavaScript que desejam ampliar seus conhecimentos e dominar a linguagem, este é o guia do programador e manual de referência de JavaScript completo e de?nitivo.",
       "price": 158.34,
-      "categoriaId": "programacao",
+      "categoriaId": "javascript",
       "autorId": "flanagan-david",
       "autorName": "Flanagan David",
       "numeroPaginas": 1080,
@@ -21,26 +21,12 @@
       "imagePath": "assets/img/91W2aaI7j6L.jpg",
       "about": "Eloquent JavaScript dives into the JavaScript language to show programmers how to write elegant, effective JavaScript code. Like any good programming book, Eloquent JavaScript begins with fundamentals--variables, control structures, functions, and data structures--then moves on to complex topics like object-oriented programming and regular expressions.",
       "price": 89.8,
-      "categoriaId": "programacao",
+      "categoriaId": "javascript",
       "autorId": "marijn-averbeke",
       "autorName": "Marijn Haverbeke",
       "numeroPaginas": 1080,
       "editora": "E-Book",
       "anoEdicao": "2018"
-    },
-    {
-      "id": "marketing-comunicacao-na-era-digital",
-      "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-      "rating": 4.9,
-      "imagePath": "assets/img/livro-marketing.jpg",
-      "about": "Este é o livro que todo profissional de marketing ou publicitário ambicioso, progressista e com uma percepção afinada do mercado deve ter em sua estante. A visão sobre comunicação empresarial mudou ao longo dos últimos anos e copiar a última ideia criativa do concorrente não é mais suficiente. Marketing e comunicação na era digital traz as novas regras de promoção de produtos e serviços na era digital. Este é um guia único, pioneiro, que oferece um plano de ação descrito passo-a-passo para aproveitar o poder da Internet para se comunicar diretamente com os compradores, aumentar a visibilidade online e expandir as vendas. Aprenda a enviar a mensagem certa para as pessoas certas no momento certo - e de uma forma muito barata.",
-      "price": 71.9,
-      "categoriaId": "marketing",
-      "autorId": "david-meerman-scott",
-      "autorName": "David Meerman Scott",
-      "numeroPaginas": 372,
-      "editora": "Editora Évora",
-      "anoEdicao": "2015"
     },
     {
       "id": "introducao-ao-json",
@@ -71,46 +57,60 @@
       "anoEdicao": "2017"
     },
     {
-      "id": "a-magia-do-silencio",
-      "name": "A Magia do Silêncio",
-      "rating": 4.1,
-      "imagePath": "assets/img/a-magia-do-silencio.jpg",
-      "about": "Celebrada como uma nova e original voz do budismo, a monja francesa Kankyo Tannier parte de sua rica experiência pessoal para nos mostrar o poder transformador da prática do silêncio.",
-      "price": 34.7,
-      "categoriaId": "auto-ajuda",
-      "autorId": "kankyo-tannier",
-      "autorName": "Kankyo Tannier",
-      "numeroPaginas": 160,
-      "editora": "Sextante",
+      "id": "estruturada-de-dados-e-algoritmos-javascript",
+      "name": "Estruturas de dados e algoritmos em JavaScript",
+      "rating": 4.5,
+      "imagePath": "assets/img/estrutura-dados.jpg",
+      "about": "Este livro apresenta o básico sobre a linguagem JavaScript e introduz a ECMAScript 7 antes de passar gradualmente para as implementações atuais da ECMAScript 6. Você vai adquirir um conhecimento profundo sobre como as tabelas hash e as estruturas de dados para conjuntos funcionam e de que modo as árvores e os mapas hash podem ser usados para buscar arquivos em um disco rígido ou representar um banco de dados",
+      "price": 51.75,
+      "categoriaId": "javascript",
+      "autorId": "loiane-groner",
+      "autorName": "Loiane Groner",
+      "numeroPaginas": 304,
+      "editora": "Novatec",
+      "anoEdicao": "2017"
+    },
+    {
+      "id": "aprendendo-a-desenvolver-aplicacoes-web",
+      "name": "Aprendendo a Desenvolver Aplicações Web",
+      "rating": 4.8,
+      "imagePath": "assets/img/programacao-web.jpg",
+      "about": "Domine os fundamentos do desenvolvimento de aplicações web implementando uma aplicação simples a partir do zero, baseada em banco de dados, usando HTML, JavaScript e outras ferramentas de código aberto. Por meio de tutoriais que permitem pôr a mão na massa, este guia prático mostra como criar uma interface de usuário, implementar um servidor, desenvolver uma comunicação cliente-servidor e usar um serviço baseado em nuvem para implantar a aplicação aos desenvolvedores inexperientes de aplicações web.",
+      "price": 194.13,
+      "categoriaId": "web",
+      "autorId": "semmy-purewal",
+      "autorName": "Semmy Purewal",
+      "numeroPaginas": 360,
+      "editora": "Novatec",
+      "anoEdicao": "2014"
+    },
+    {
+      "id": "ng-book",
+      "name": "ng-book: The Complete Guide to Angular",
+      "rating": 4.9,
+      "imagePath": "assets/img/ng-book.png",
+      "about": "What if you could master the entire framework - with solid foundations - in less time without beating your head against a wall? Imagine how quickly you could work if you knew the best practices and the best tools?.",
+      "price": 158.34,
+      "categoriaId": "front-end",
+      "autorId": "nathan-murray",
+      "autorName": "Nathan Murray, Felipe Coury e Ari Lerner",
+      "numeroPaginas": 626,
+      "editora": "Createspace Independent Publishing Platform",
       "anoEdicao": "2018"
     },
     {
-      "id": "historia-riqueza",
-      "name": "História Da Riqueza No Brasil",
-      "rating": 4.5,
-      "imagePath": "assets/img/historia-da-riqueza.jpg",
-      "about": "História da riqueza no Brasil é ao mesmo tempo tão monumental quanto síntese. Há algumas definitivas, como as do trio Gilberto Freyre- Sérgio Buarque de Holanda-Caio Prado. A diferença? São mais de quinhentos anos relidos e explicados em nova chave. Pois para realizar a sua, Caldeira serviu-se de disciplinas vizinhas, a antropologia e a econometria, enriquecendo interpretações que já vinha consolidando em obras anteriores. A antropologia lhe permitiu se aproximar do passado, iluminando objetos como a família, a mestiçagem, atitudes econômicas, as alianças de poder, revelando sua surpreendente permanência ao longo de cinco séculos. Quanto a econometria, essa forneceu medidas e estatísticas mal e pouco conhecidas de grande parte dos historiadores, para apreender fatos que só mediante esta abordagem são capturáveis.” – Mary del Priore “(Caldeira) ressalta, o que para poucos era claro, que o mercado interno sempre teve importância maior do que lhe foi atribuída por muitos autores, mesmo de livros clássicos. Não que se deixe de reconhecer o papel importantíssimo do mercado externo para a inserção mundial da economia, mas desaparece o retrato simplificador da sociedade brasileira do passado como se ela fosse formada apenas pela grande lavoura de exportação. Em segundo lugar, trata-se de obra que traz uma abordagem metodológica rara: Caldeira introduz a referência a números, aos grandes números, na narrativa histórica e os usa para a comprovação de suas teses. Como se isso não bastasse para dar singularidade e notoriedade ao livro, acrescente-se que suas páginas mostram o fracasso das tentativas de acelerar o crescimento econômico pela vontade política do Estado.” – Fernando Henrique Cardoso",
-      "price": 55.9,
-      "categoriaId": "economia",
-      "autorId": "jorge-caldeira",
-      "autorName": "Jorge Caldeira",
-      "numeroPaginas": 624,
-      "editora": "Estação Brasil",
-      "anoEdicao": "2017"
-    },
-    {
-      "id": "caixa-passaros",
-      "name": "Caixa De Pássaros",
-      "rating": 3.4,
-      "imagePath": "assets/img/caixa-passaros.jpg",
-      "about": "Romance de estreia de Josh Malerman, “Caixa de Pássaros” é um thriller psicológico tenso e aterrorizante, que explora a essência do medo. Uma história que vai deixar o leitor completamente sem fôlego mesmo depois de terminar de ler. Basta uma olhadela para desencadear um impulso violento e incontrolável que acabará em suicídio. Ninguém é imune e ninguém sabe o que provoca essa reação nas pessoas. Cinco anos depois do surto ter começado, restaram poucos sobreviventes, entre eles Malorie e dois filhos pequenos. Ela sonha em fugir para um local onde a família possa ficar em segurança, mas a viagem que tem pela frente é assustadora: uma decisão errada e eles morrerão.",
-      "price": 27.9,
-      "categoriaId": "best-sellers",
-      "autorId": "josh-malerman",
-      "autorName": "Josh Malerman",
-      "numeroPaginas": 272,
-      "editora": "Estação Brasil",
-      "anoEdicao": "2017"
+      "id": "introduçao-e-boas-praticas-em-ux-design",
+      "name": "Introdução e boas práticas em UX Design",
+      "rating": 4.9,
+      "imagePath": "assets/img/ui-ux.png",
+      "about": "Cada vez mais o desenvolvimento do front-end de sites e sistemas tem papel preponderante em como o seu site converte, retém e agrada os usuários. Porém, além de saber como implementar uma tela, é importante saber também o que fazer nela. Quais recursos devem ser usados? Quais informações precisam ser exibidas? Em quais lugares?",
+      "price": 69.9,
+      "categoriaId": "design-e-ux",
+      "autorId": "fabricio-teixeira",
+      "autorName": "Fabricio Teixeira",
+      "numeroPaginas": 263,
+      "editora": "Casa do Código",
+      "anoEdicao": "2019"
     }
   ],
   "autors": [
@@ -123,20 +123,12 @@
       "name": "Lindsay Bassett"
     },
     {
-      "id": "shirley-jackson",
-      "name": "Shirley Jackson"
-    },
-    {
       "id": "marky-manson",
       "name": "Mark Manson"
     },
     {
       "id": "kankyo-tannier",
       "name": "Kankyo Tannier"
-    },
-    {
-      "id": "jorge-caldeira",
-      "name": "Jorge Caldeira"
     },
     {
       "id": "josh-malerman",
@@ -147,16 +139,28 @@
       "name": "Marijn Haverbeke"
     },
     {
-      "id": "king-stephen",
-      "name": "Stephen King"
-    },
-    {
       "id": "david-meerman-scott",
       "name": "David Meerman Scott"
     },
     {
-      "autorId": "json-ducket",
-      "autorName": "Jon Duckett"
+      "id": "json-ducket",
+      "name": "Jon Duckett"
+    },
+    {
+      "id": "semmy-purewal",
+      "name": "Semmy Purewal"
+    },
+    {
+      "id": "loiane-groner",
+      "name": "Loiane Groner"
+    },
+    {
+      "id": "nathan-murray",
+      "name": "Nathan Murray, Felipe Coury e Ari Lerner"
+    },
+    {
+      "id": "fabricio-teixeira",
+      "name": "Fabricio Teixeira"
     }
   ],
   "reviews": [
@@ -317,10 +321,6 @@
   ],
   "categorias": [
     {
-      "id": "best-sellers",
-      "name": "Best Sellers"
-    },
-    {
       "id": "html-css",
       "name": "HTML e CSS"
     },
@@ -329,1232 +329,42 @@
       "name": "Programação"
     },
     {
-      "id": "auto-ajuda",
-      "name": "Auto-Ajuda"
+      "id": "javascript",
+      "name": "Javascript"
     },
     {
-      "id": "economia",
-      "name": "Economia"
+      "id": "web",
+      "name": "Desenvolvimento Web"
     },
     {
-      "id": "marketing",
-      "name": "Marketing"
+      "id": "front-end",
+      "name": "Fron-End"
+    },
+    {
+      "id": "design-e-ux",
+      "name": "Design e UX"
     }
   ],
   "orders": [
     {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Rua 101",
-      "number": "1234",
-      "optionalAddress": "Cond. Prédio",
+      "name": "Admin",
+      "email": "admin@email.com",
+      "emailConfirmation": "admin@email.com",
+      "address": "Avenida 1",
+      "number": "12345",
+      "optionalAddress": "",
       "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
         {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        },
-        {
           "quantity": 2,
-          "menuId": "a-sutil-arte-de-ligar-o-foda-se",
-          "name": "A Sutil Arte De Ligar O Foda-Se",
-          "price": 23.9,
-          "total": 47.8
+          "menuId": "marketing-comunicacao-na-era-digital",
+          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
+          "price": 71.9,
+          "total": 143.8
         }
       ],
       "id": 1
-    },
-    {
-      "name": "Alberto Soares",
-      "email": "alberto@email.com",
-      "emailConfirmation": "alberto@email.com",
-      "address": "Rua 1231",
-      "number": "1231",
-      "optionalAddress": "Adda",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "historia-riqueza",
-          "name": "História Da Riqueza No Brasil",
-          "price": 55.9,
-          "total": 55.9
-        },
-        {
-          "quantity": 2,
-          "menuId": "caixa-passaros",
-          "name": "Caixa De Pássaros",
-          "price": 27.9,
-          "total": 55.8
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Jasmim",
-      "email": "jasmin@email.com",
-      "emailConfirmation": "jasmin@email.com",
-      "address": "Rua 332",
-      "number": "1234",
-      "optionalAddress": "Qd. 453",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Rhadá",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Rua A-1",
-      "number": "123456",
-      "optionalAddress": "Qd. 123",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "assombracao-da-casa-da-colina",
-          "name": "A Assombração da Casa da Colina",
-          "price": 47.9,
-          "total": 95.8
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 01",
-      "number": "12345",
-      "optionalAddress": "dadada",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 1234",
-      "number": "1234",
-      "optionalAddress": "1234",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "Rhadá Costa ",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 01",
-      "number": "12",
-      "optionalAddress": "123",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 4,
-          "menuId": "it-a-coisa",
-          "name": "It - A Coisa ",
-          "price": 74.9,
-          "total": 299.6
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 123456",
-      "number": "123456",
-      "optionalAddress": "123456",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
-        },
-        {
-          "quantity": 3,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 475.02
-        },
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 8
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida T-13",
-      "number": "140",
-      "optionalAddress": "Avenida 5",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 9
-    },
-    {
-      "name": "Rhadá",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida T-40",
-      "number": "13345",
-      "optionalAddress": "12334",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "historia-riqueza",
-          "name": "História Da Riqueza No Brasil",
-          "price": 55.9,
-          "total": 55.9
-        },
-        {
-          "quantity": 2,
-          "menuId": "assombracao-da-casa-da-colina",
-          "name": "A Assombração da Casa da Colina",
-          "price": 47.9,
-          "total": 95.8
-        }
-      ],
-      "id": 10
-    },
-    {
-      "name": "Alberto",
-      "email": "alberto@email.com",
-      "emailConfirmation": "alberto@email.com",
-      "address": "Avenida 0123",
-      "number": "140",
-      "optionalAddress": "Avenida 5",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "it-a-coisa",
-          "name": "It - A Coisa ",
-          "price": 74.9,
-          "total": 149.8
-        },
-        {
-          "quantity": 3,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 236.70000000000002
-        }
-      ],
-      "id": 11
-    },
-    {
-      "name": "Rhadá",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Minha Rua 01",
-      "number": "14523",
-      "optionalAddress": "Qd. 012",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "assombracao-da-casa-da-colina",
-          "name": "A Assombração da Casa da Colina",
-          "price": 47.9,
-          "total": 95.8
-        }
-      ],
-      "id": 12
-    },
-    {
-      "name": "Maria",
-      "email": "maria@gmail.com",
-      "emailConfirmation": "maria@gmail.com",
-      "address": "Avenida 1234",
-      "number": "143",
-      "optionalAddress": "dada",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 13
-    },
-    {
-      "name": "Maria Joaquina",
-      "email": "maria@gmail.com",
-      "emailConfirmation": "maria@gmail.com",
-      "address": "Avenida 1254",
-      "number": "1245",
-      "optionalAddress": "Avenida 5",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 475.02
-        }
-      ],
-      "id": 14
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 12345",
-      "number": "456789",
-      "optionalAddress": "Adannda",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "a-magia-do-silencio",
-          "name": "A Magia do Silêncio",
-          "price": 34.7,
-          "total": 69.4
-        },
-        {
-          "quantity": 4,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 315.6
-        },
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 15
-    },
-    {
-      "name": "Maria Aparecida",
-      "email": "maria@email.com",
-      "emailConfirmation": "maria@email.com",
-      "address": "Avenida 01",
-      "number": "1234",
-      "optionalAddress": "Qd. 3",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "a-sutil-arte-de-ligar-o-foda-se",
-          "name": "A Sutil Arte De Ligar O Foda-Se",
-          "price": 23.9,
-          "total": 71.69999999999999
-        },
-        {
-          "quantity": 1,
-          "menuId": "a-magia-do-silencio",
-          "name": "A Magia do Silêncio",
-          "price": 34.7,
-          "total": 34.7
-        },
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 16
-    },
-    {
-      "name": "João Batista",
-      "email": "joao@email.com",
-      "emailConfirmation": "joao@email.com",
-      "address": "Rua 12345",
-      "number": "12452",
-      "optionalAddress": "Qd. A",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        },
-        {
-          "quantity": 3,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 475.02
-        },
-        {
-          "quantity": 1,
-          "menuId": "a-magia-do-silencio",
-          "name": "A Magia do Silêncio",
-          "price": 34.7,
-          "total": 34.7
-        }
-      ],
-      "id": 17
-    },
-    {
-      "name": "Paulo Antonio",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 1234",
-      "number": "1456",
-      "optionalAddress": "12345",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        },
-        {
-          "quantity": 3,
-          "menuId": "it-a-coisa",
-          "name": "It - A Coisa ",
-          "price": 74.9,
-          "total": 224.70000000000002
-        },
-        {
-          "quantity": 1,
-          "menuId": "historia-riqueza",
-          "name": "História Da Riqueza No Brasil",
-          "price": 55.9,
-          "total": 55.9
-        }
-      ],
-      "id": 18
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "140",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 215.70000000000002
-        }
-      ],
-      "id": 19
-    },
-    {
-      "name": "Rhadá Costa Ferreira",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 20
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 21
-    },
-    {
-      "name": "Rhadá Costa ",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 215.70000000000002
-        },
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 22
-    },
-    {
-      "name": "Avenida ",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "1410",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
-        }
-      ],
-      "id": 23
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "dada",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 24
-    },
-    {
-      "name": "Avenida ",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 25
-    },
-    {
-      "name": "Avenida 14",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 26
-    },
-    {
-      "name": "Avenida",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 27
-    },
-    {
-      "name": "Avenida ",
-      "email": "ada@gmail.com",
-      "emailConfirmation": "ada@gmail.com",
-      "address": "aveddada",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 28
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 29
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        },
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 30
-    },
-    {
-      "name": "Rhadá Costa",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "assombracao-da-casa-da-colina",
-          "name": "A Assombração da Casa da Colina",
-          "price": 47.9,
-          "total": 95.8
-        }
-      ],
-      "id": 31
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        },
-        {
-          "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
-        }
-      ],
-      "id": 32
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        },
-        {
-          "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
-        }
-      ],
-      "id": 33
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        },
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 34
-    },
-    {
-      "name": "adada",
-      "email": "dada@email.com",
-      "emailConfirmation": "dada@email.com",
-      "address": "Avenida ",
-      "number": "122",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 35
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 1423",
-      "number": "2",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 36
-    },
-    {
-      "name": "Avenida 140",
-      "email": "avenida@email.com",
-      "emailConfirmation": "avenida@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 215.70000000000002
-        }
-      ],
-      "id": 37
-    },
-    {
-      "name": "Avenida 140",
-      "email": "rhadacosta@gmail.com",
-      "emailConfirmation": "rhadacosta@gmail.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 38
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
-        }
-      ],
-      "id": 39
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 1423",
-      "number": "212",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "it-a-coisa",
-          "name": "It - A Coisa ",
-          "price": 74.9,
-          "total": 74.9
-        },
-        {
-          "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
-        }
-      ],
-      "id": 40
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "150",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 41
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida ",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 42
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 179.6
-        }
-      ],
-      "id": 43
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 44
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "40",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 45
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "1",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 46
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 47
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        },
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 48
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 150",
-      "number": "015",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 10,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 719
-        },
-        {
-          "quantity": 52,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 8233.68
-        }
-      ],
-      "id": 49
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 50
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "Avenida 140",
-      "number": "40",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 71.9
-        }
-      ],
-      "id": 51
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 15",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
-        }
-      ],
-      "id": 52
-    },
-    {
-      "name": "Paulo",
-      "email": "paulo@email.com",
-      "emailConfirmation": "paulo@email.com",
-      "address": "avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
-        }
-      ],
-      "id": 53
     }
   ],
   "slides": [

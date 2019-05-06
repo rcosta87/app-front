@@ -2,11 +2,6 @@
 
 <div class="categoria-wrapper">
     <div class="categoria-item" *ngFor="let category of cats">
-        <a (click)="goToCategoryDetail(category)">
-          <div class="categoria-card">
-              <h1 class="place-info-box-text">{{category.name}}</h1>
-              <div class="divisor"></div>
-          </div>
-        </a>
+        <mt-category [category]="category"></mt-category>
     </div>
 </div>

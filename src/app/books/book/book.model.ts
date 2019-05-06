@@ -11,4 +11,5 @@ export interface Book {
   editora: string,
   anoEdicao: string,
   categoriaName: string
+  autorName?:string
 }
