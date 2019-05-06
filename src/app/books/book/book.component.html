@@ -1,11 +1,11 @@
-<a [routerLink]="['/livros', book.id]" class="book-link-self">
+<a [routerLink]="['/livros', book?.id]" class="book-link-self">
     <div class="livro-card">
         <div class="livro-image">
-            <img [src]="book.imagePath" />
+            <img [src]="book?.imagePath" />
         </div>
         <div class="livro-content">
-            <h2>{{book.name}}</h2>
-            <p class="autor-name">{{book.autorName}}</p>
+            <h2>{{book?.name}}</h2>
+            <p class="autor-name">{{book?.autorName}}</p>
             <p class="price-book">{{book?.price | currency:'BRL': 'symbol'}}</p>
             <p class="btn-buy">Comprar</p>
         </div>

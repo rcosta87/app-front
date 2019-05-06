@@ -19,7 +19,7 @@ export class BookDetailComponent implements OnInit {
   quantidade: number = 0
   authorName: string
   section: string
-  catName: Category
+  catName: string
 
   constructor(
     private bookService: BooksService,
@@ -35,7 +35,7 @@ export class BookDetailComponent implements OnInit {
           .subscribe(author =>  this.authorName = author.name)
         ),
         tap(catName => this.categoriesService.categoryDetail(catName.categoriaId)
-          .subscribe(cat => this.catName = cat)
+          .subscribe(cat => this.catName = cat.name)
         )
       )
       .subscribe(book =>  this.book = book)

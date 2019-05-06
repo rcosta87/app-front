@@ -15,7 +15,7 @@
         <div class="title">Autor</div>
         <div class="content-card-book-detail">{{authorName}}</div>
         <div class="title">Assunto</div>
-        <div class="content-card-book-detail">{{catName?.name}}</div>
+        <div class="content-card-book-detail">{{catName}}</div>
         <div class="content-price">{{book?.price | currency:'BRL': 'symbol'}}</div>
         <div>
           <a (click)="emitAddEvent()" class="add-to-card"><span>Adicionar</span></a>
