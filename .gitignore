@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
 
 # profiling files
 chrome-profiler-events.json
@@ -14,11 +15,19 @@ speed-measure-plugin.json
 
 # IDEs and editors
 /.idea
+=======
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+>>>>>>> origin/master
 .project
 .classpath
 .c9/
 *.launch
 .settings/
+<<<<<<< HEAD
 *.sublime-workspace
 
 # IDE - VSCode
@@ -28,10 +37,13 @@ speed-measure-plugin.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+=======
+>>>>>>> origin/master
 
 # misc
 /.sass-cache
 /connect.lock
+<<<<<<< HEAD
 /coverage
 /libpeerconnection.log
 npm-debug.log
@@ -40,5 +52,18 @@ testem.log
 /typings
 
 # System Files
+=======
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+>>>>>>> origin/master
 .DS_Store
 Thumbs.db
