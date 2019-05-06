@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-dream-app": {
+    "app-front": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-dream-app",
+            "outputPath": "dist/app-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,9 +23,21 @@
               "src/assets"
             ],
             "styles": [
+              {"input":"node_modules/font-awesome/css/font-awesome.min.css"},
+              {"input":"node_modules/admin-lte/bootstrap/css/bootstrap.min.css"},
+              {"input":"node_modules/admin-lte/dist/css/AdminLTE.min.css"},
+              {"input":"node_modules/admin-lte/dist/css/skins/skin-red.min.css"},
+              {"input":"node_modules/admin-lte/plugins/iCheck/flat/red.css"},
+              {"input": "node_modules/slick-carousel/slick/slick.scss"},
+              {"input": "node_modules/slick-carousel/slick/slick-theme.scss"},
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              {"input":"node_modules/jquery/dist/jquery.min.js"},
+              {"input": "node_modules/slick-carousel/slick/slick.min.js"},
+              {"input":"node_modules/admin-lte/bootstrap/js/bootstrap.min.js"},
+              {"input":"node_modules/admin-lte/dist/js/app.min.js"}
+            ]
           },
           "configurations": {
             "production": {
@@ -57,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-dream-app:build"
+            "browserTarget": "app-front:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "my-dream-app:build:production"
+              "browserTarget": "app-front:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-dream-app:build"
+            "browserTarget": "app-front:build"
           }
         },
         "test": {
@@ -79,9 +91,21 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
+              {"input":"node_modules/font-awesome/css/font-awesome.min.css"},
+              {"input":"node_modules/admin-lte/bootstrap/css/bootstrap.min.css"},
+              {"input":"node_modules/admin-lte/dist/css/AdminLTE.min.css"},
+              {"input":"node_modules/admin-lte/dist/css/skins/skin-red.min.css"},
+              {"input":"node_modules/admin-lte/plugins/iCheck/flat/red.css"},
+              {"input": "node_modules/slick-carousel/slick/slick.scss"},
+              {"input": "node_modules/slick-carousel/slick/slick-theme.scss"},
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              {"input":"node_modules/jquery/dist/jquery.min.js"},
+              {"input": "node_modules/slick-carousel/slick/slick.min.js"},
+              {"input":"node_modules/admin-lte/bootstrap/js/bootstrap.min.js"},
+              {"input":"node_modules/admin-lte/dist/js/app.min.js"}
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -102,7 +126,7 @@
         }
       }
     },
-    "my-dream-app-e2e": {
+    "app-front-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +135,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "my-dream-app:serve"
+            "devServerTarget": "app-front:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "my-dream-app:serve:production"
+              "devServerTarget": "app-front:serve:production"
             }
           }
         },
@@ -131,5 +155,5 @@
       }
     }
   },
-  "defaultProject": "my-dream-app"
+  "defaultProject": "app-front"
 }

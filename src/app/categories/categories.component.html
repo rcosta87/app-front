@@ -1,0 +1,7 @@
+<app-title-section [title]="'Categorias Populares'"></app-title-section>
+
+<div class="categoria-wrapper">
+    <div class="categoria-item" *ngFor="let category of cats">
+        <app-category [category]="category"></app-category>
+    </div>
+</div>

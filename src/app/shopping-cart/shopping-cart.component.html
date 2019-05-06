@@ -1,0 +1,39 @@
+<!--INICIO DO CARRINHO-->
+<div class="card-shooping-cart">
+  <div class="card-shooping-cart-header">
+      <div class="title-shopping-cart">
+          <i class="fa fa-shopping-cart"></i>
+          <h3 class="title">Meu Carrinho</h3>
+      </div>
+  </div>
+  <!-- /.box-header -->
+  <div class="card-shopping-cart-content">
+      <div *ngIf="!items().length">
+          <p class="text-center">
+              Seu carrinho está vazio!
+          </p>
+      </div>
+      <div *ngIf="items().length">
+          <div class="shopping-cart-grid">
+                  <div *ngFor="let item of items()" [@row]="rowState" class="content-cart">
+                      <div>{{item.menuItem.name}}</div>
+                      <div class="quantity">
+                              <button (click)="decreasyQtd(item)"><i class="fa fa-minus"></i></button>
+                              <div><span>{{item.quantity}}</span></div>
+                              <button (click)="increasyQtd(item)"><i class="fa fa-plus"></i></button>
+                     </div>
+                 </div>
+                  <div class="total">
+                      <div>Total:</div>
+                      <div class="text-right">{{total() | currency:'BRL': 'symbol'}}</div>
+                  </div>
+          </div>
+  </div>
+  <div class="cart-info-buttons" *ngIf="items().length">
+      <div class="buttons">
+          <a (click)="clear()" class="btn-clear"><i class="fa fa-trash"></i> Limpar</a>
+          <a [routerLink]="['/order']" class="btn-check-out"><i class="fa fa-credit-card"></i> Fechar Pedido</a>
+      </div>
+  </div>
+</div>
+<!-- FIM DO CARRINHO -->

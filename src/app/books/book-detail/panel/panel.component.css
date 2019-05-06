@@ -1,0 +1,37 @@
+/**Menu Detail*/
+.card-menu-detail{
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 8px 10px 12px 0px rgba(46, 61, 73, 0.2);
+}
+
+.menu-detail{
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding: 15px 0;
+}
+.menu-detail li{
+  display: inline;
+  padding-top: 15px;
+}
+.menu-detail li + li{
+  padding-left: 25px;
+}
+
+.menu-detail li a{
+  padding: 14px 0;
+  font-family: 'Caudex', serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+
+.menu-detail li a.link-detail-active{
+  border-bottom: 2px solid #f07c29;
+  color: #f07c29
+}
+
+.content-menu-detail{
+  padding: 25px 0;
+}

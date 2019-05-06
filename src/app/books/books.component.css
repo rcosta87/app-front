@@ -1,0 +1,15 @@
+.livro-wrapper {
+  display: grid;
+}
+
+@media (max-width: 768px) {
+  .livro-wrapper {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media(min-width: 768px) {
+  .livro-wrapper {
+      grid-template-columns: 1fr 1fr;
+  }
+}

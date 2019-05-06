@@ -1,0 +1,42 @@
+<app-page-intro [title]="'Obrigada!'">
+</app-page-intro>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+
+
+            <section class="content">
+                <div class="jumbotron">
+                    <h2>Pedido Conluído</h2>
+                    <p>Seu pedido foi recebido com sucesso:</p>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Item</th>
+                                    <th scope="col">Quantidade</th>
+                                    <th scope="col">Valor</th>
+                                    <th scope="col">Valor Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let item of orderItens" app-order-summary-itens [orderItem]=item></tr>
+                                <tr>
+                                    <td align="left"></td>
+                                    <td align="left"></td>
+                                    <td align="left">Frete : {{order?.frete | currency: 'BRL': 'symbol'}}</td>
+                                    <td align="left">Valor Total : {{valueTotalCart | currency: 'BRL': 'symbol'}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+
+            </section>
+            <!-- FIM DO CONTEUDO -->
+        </div>
+    </div>
+</div>

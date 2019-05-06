@@ -1,0 +1,11 @@
+<!-- INíCIO do CONTEÚDO -->
+<app-page-intro [title]="'Seu próximo livro está aqui!'"></app-page-intro>
+<div class="container">
+    <div class="livro-wrapper">
+        <div *ngFor="let book of books | async" class="livro-item">
+            <app-book [book]="book "></app-book>
+        </div>
+    </div>
+</div>
+
+<!-- FIM  do CONTEÚDO -->

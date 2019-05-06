@@ -1,0 +1,10 @@
+<div class="col-xs-12 card-menu-detail">
+  <ul class="menu-detail" >
+    <li *ngFor="let link of links">
+      <a (click)="setSection(link)" [class.link-detail-active]="link === sectionName">{{link}}</a>
+    </li>
+  </ul>
+  <div class="content-menu-detail">
+    <ng-content></ng-content>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.title-section {
+  font-family: 'Caudex', serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 35px;
+  color: rgba(0, 0, 0, .5);
+}
+
+.title-section-wrap {
+  position: relative;
+}
+
+.divisor-section {
+  height: 2px;
+  width: 65px;
+  background-color: rgba(0, 0, 0, .5);
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  position: absolute;
+}

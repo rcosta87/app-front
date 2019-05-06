@@ -1,0 +1,12 @@
+<app-header-wave></app-header-wave>
+
+<div class="carrousel-books">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <app-slide [slide]="slide"></app-slide>
+        </div>
+    </ngx-slick-carousel>
+</div>
+
+
+

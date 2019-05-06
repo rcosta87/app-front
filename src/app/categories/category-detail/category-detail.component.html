@@ -1,0 +1,14 @@
+<app-page-intro [title]="catName"></app-page-intro>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <section class="content">
+                <div class="row">
+                    <div *ngFor="let book of books" class="col-sm-6 col-xs-12">
+                        <app-book [book]="book"></app-book>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
