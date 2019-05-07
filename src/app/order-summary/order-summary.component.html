@@ -21,12 +21,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr *ngFor="let item of orderItens" app-order-summary-itens [orderItem]=item></tr>
+                                <tr *ngFor="let item of orderItens" (valueTotal)="getTotal($event)" app-order-summary-itens [orderItem]=item></tr>
                                 <tr>
                                     <td align="left"></td>
                                     <td align="left"></td>
                                     <td align="left">Frete : {{order?.frete | currency: 'BRL': 'symbol'}}</td>
-                                    <td align="left">Valor Total : {{valueTotalCart | currency: 'BRL': 'symbol'}}</td>
+                                    <td align="left">Valor Total : {{getValueTotalDeliveryCost() | currency: 'BRL': 'symbol'}}</td>
                                 </tr>
                             </tbody>
                         </table>

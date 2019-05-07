@@ -350,18 +350,15 @@
       "name": "Admin",
       "email": "admin@email.com",
       "emailConfirmation": "admin@email.com",
-      "address": "Avenida 1",
-      "number": "12345",
+      "address": "Avenida 1345",
+      "number": "142",
       "optionalAddress": "",
       "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
         {
           "quantity": 2,
-          "menuId": "marketing-comunicacao-na-era-digital",
-          "name": "Marketing e Comunicação na Era Digital - Fale Diretamente Com o Cliente!",
-          "price": 71.9,
-          "total": 143.8
+          "menuId": "eloquent-javascript"
         }
       ],
       "id": 1
@@ -370,32 +367,19 @@
       "name": "Admin",
       "email": "admin@email.com",
       "emailConfirmation": "admin@email.com",
-      "address": "Avenida 5",
-      "number": "1234",
+      "address": "Avenida 140",
+      "number": "140",
       "optionalAddress": "",
       "paymentOption": "DEB",
       "frete": 8,
       "orderItems": [
         {
-          "quantity": 1,
-          "menuId": "introduçao-e-boas-praticas-em-ux-design",
-          "name": "Introdução e boas práticas em UX Design",
-          "price": 69.9,
-          "total": 69.9
-        },
-        {
-          "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
+          "quantity": 3,
+          "menuId": "introducao-ao-json"
         },
         {
           "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
+          "menuId": "javascript-guia-definitivo"
         }
       ],
       "id": 2
@@ -412,10 +396,15 @@
       "orderItems": [
         {
           "quantity": 2,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 179.6
+          "menuId": "javascript-guia-definitivo"
+        },
+        {
+          "quantity": 1,
+          "menuId": "introducao-ao-json"
+        },
+        {
+          "quantity": 3,
+          "menuId": "introduçao-e-boas-praticas-em-ux-design"
         }
       ],
       "id": 3
@@ -427,15 +416,12 @@
       "address": "Avenida 140",
       "number": "140",
       "optionalAddress": "",
-      "paymentOption": "DEB",
+      "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
         {
           "quantity": 2,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 316.68
+          "menuId": "introducao-ao-json"
         }
       ],
       "id": 4
@@ -444,18 +430,23 @@
       "name": "Admin",
       "email": "admin@email.com",
       "emailConfirmation": "admin@email.com",
-      "address": "Avenida",
+      "address": "Avenida 140",
       "number": "140",
       "optionalAddress": "",
-      "paymentOption": "DEB",
+      "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
         {
           "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
+          "menuId": "eloquent-javascript"
+        },
+        {
+          "quantity": 3,
+          "menuId": "javascript-guia-definitivo"
+        },
+        {
+          "quantity": 1,
+          "menuId": "introducao-ao-json"
         }
       ],
       "id": 5
@@ -464,343 +455,22 @@
       "name": "Admin",
       "email": "admin@email.com",
       "emailConfirmation": "admin@email.com",
-      "address": "Avenida 1234",
-      "number": "123456963",
+      "address": "Avenida ",
+      "number": "1345",
       "optionalAddress": "",
-      "paymentOption": "DEB",
+      "paymentOption": "MON",
       "frete": 8,
       "orderItems": [
         {
-          "quantity": 2,
-          "menuId": "aprendendo-a-desenvolver-aplicacoes-web",
-          "name": "Aprendendo a Desenvolver Aplicações Web",
-          "price": 194.13,
-          "total": 388.26
+          "quantity": 4,
+          "menuId": "javascript-guia-definitivo"
+        },
+        {
+          "quantity": 1,
+          "menuId": "eloquent-javascript"
         }
       ],
       "id": 6
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 14",
-      "number": "12520",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "html-e-css-projete-e-construa-websites",
-          "name": "HTML e CSS projete e construa Websites",
-          "price": 23.9,
-          "total": 47.8
-        }
-      ],
-      "id": 7
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 58",
-      "number": "58",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "html-e-css-projete-e-construa-websites",
-          "name": "HTML e CSS projete e construa Websites",
-          "price": 23.9,
-          "total": 23.9
-        }
-      ],
-      "id": 8
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 5",
-      "number": "152",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 3,
-          "menuId": "html-e-css-projete-e-construa-websites",
-          "name": "HTML e CSS projete e construa Websites",
-          "price": 23.9,
-          "total": 71.69999999999999
-        }
-      ],
-      "id": 9
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        }
-      ],
-      "id": 10
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "adaddad",
-      "number": "12245",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 78.9
-        }
-      ],
-      "id": 11
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "adada",
-      "number": "1245",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introduçao-e-boas-praticas-em-ux-design",
-          "name": "Introdução e boas práticas em UX Design",
-          "price": 69.9,
-          "total": 139.8
-        }
-      ],
-      "id": 12
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "QEQEQ",
-      "number": "224",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introduçao-e-boas-praticas-em-ux-design",
-          "name": "Introdução e boas práticas em UX Design",
-          "price": 69.9,
-          "total": 139.8
-        },
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 13
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 179.6
-        },
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 14
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 215",
-      "number": "1225",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        },
-        {
-          "quantity": 1,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 158.34
-        }
-      ],
-      "id": 15
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        }
-      ],
-      "id": 16
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 179.6
-        }
-      ],
-      "id": 17
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Adaada",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 2,
-          "menuId": "introducao-ao-json",
-          "name": "Introdução ao JSON: Um Guia Para JSON que vai Direto ao Ponto",
-          "price": 78.9,
-          "total": 157.8
-        },
-        {
-          "quantity": 3,
-          "menuId": "javascript-guia-definitivo",
-          "name": "JavaScript: O Guia Definitivo",
-          "price": 158.34,
-          "total": 475.02
-        },
-        {
-          "quantity": 1,
-          "menuId": "ng-book",
-          "name": "ng-book: The Complete Guide to Angular",
-          "price": 158.34,
-          "total": 158.34
-        },
-        {
-          "quantity": 1,
-          "menuId": "estruturada-de-dados-e-algoritmos-javascript",
-          "name": "Estruturas de dados e algoritmos em JavaScript",
-          "price": 51.75,
-          "total": 51.75
-        }
-      ],
-      "id": 18
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 140",
-      "number": "140",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        }
-      ],
-      "id": 19
-    },
-    {
-      "name": "Admin",
-      "email": "admin@email.com",
-      "emailConfirmation": "admin@email.com",
-      "address": "Avenida 1245",
-      "number": "12",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "frete": 8,
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "eloquent-javascript",
-          "name": "Eloquent JavaScript, 3rd Edition",
-          "price": 89.8,
-          "total": 89.8
-        }
-      ],
-      "id": 20
     }
   ],
   "slides": [

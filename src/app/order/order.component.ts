@@ -92,7 +92,7 @@ export class OrderComponent implements OnInit {
 
   checkOrder(order: Order){
     order.frete = this.delivery;
-    order.orderItems = this.cartItems().map((item:CartItem)=> new OrderItem(item.quantity, item.menuItem.id, item.menuItem.name, item.menuItem.price, this.calcTotal(item)))
+    order.orderItems = this.cartItems().map((item:CartItem)=> new OrderItem(item.quantity, item.menuItem.id))
     this.orderService.checkOrder(order)
       .pipe(
         tap(orderId => this.orderId = orderId)

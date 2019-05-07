@@ -14,9 +14,6 @@ class OrderItem {
   constructor(
     public quantity: number,
     public menuId: string,
-    public name: string,
-    public price: number,
-    public total:number
   ){}
 }
 
