@@ -69,7 +69,7 @@
 }
 
 .book-info-details .title {
-  font-family: 'Caudex', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -110,7 +110,7 @@
 
 .livro-about h1,
 .reviews-card h1 {
-  font-family: 'Caudex', serif;
+  font-family: 'Playfair Display', serif;
   color: #555;
   font-weight: bold;
   font-size: 22px;

@@ -217,7 +217,7 @@
       "name": "Eric",
       "date": "2017-01-23T18:25:43",
       "rating": 3,
-      "comments": "Mediano. Sim, é um livro de autoajuda. Muitas temáticas exploradas pelo autor são interessantes, mas, de certo modo, lugares-comuns",
+      "comments": "Mediano. Sim, é um livro de autoajuda. Muitas temáticas expPlayfair Displaydas pelo autor são interessantes, mas, de certo modo, lugares-comuns",
       "livroId": "a-sutil-arte-de-ligar-o-foda-se"
     },
     {
@@ -471,6 +471,69 @@
         }
       ],
       "id": 6
+    },
+    {
+      "name": "Admin",
+      "email": "admin@email.com",
+      "emailConfirmation": "admin@email.com",
+      "address": "Avenida 140",
+      "number": "140",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "javascript-guia-definitivo"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Admin",
+      "email": "admin@email.com",
+      "emailConfirmation": "admin@email.com",
+      "address": "Avenida 123",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "eloquent-javascript"
+        },
+        {
+          "quantity": 1,
+          "menuId": "introduçao-e-boas-praticas-em-ux-design"
+        },
+        {
+          "quantity": 3,
+          "menuId": "javascript-guia-definitivo"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "Admin",
+      "email": "admin@email.com",
+      "emailConfirmation": "admin@email.com",
+      "address": "Avenida 140",
+      "number": "124",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "introduçao-e-boas-praticas-em-ux-design"
+        },
+        {
+          "quantity": 2,
+          "menuId": "introducao-ao-json"
+        }
+      ],
+      "id": 9
     }
   ],
   "slides": [
