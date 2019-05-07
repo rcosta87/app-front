@@ -781,6 +781,26 @@
         }
       ],
       "id": 19
+    },
+    {
+      "name": "Admin",
+      "email": "admin@email.com",
+      "emailConfirmation": "admin@email.com",
+      "address": "Avenida 1245",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "frete": 8,
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "eloquent-javascript",
+          "name": "Eloquent JavaScript, 3rd Edition",
+          "price": 89.8,
+          "total": 89.8
+        }
+      ],
+      "id": 20
     }
   ],
   "slides": [
